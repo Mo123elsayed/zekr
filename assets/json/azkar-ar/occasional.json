@@ -1,0 +1,27 @@
+{
+  "categories": [
+    {"id": "daily_general", "title": "أذكار عامة يومية"},
+    {"id": "rain", "title": "عند المطر"},
+    {"id": "adhan", "title": "عند سماع الأذان"},
+    {"id": "moon", "title": "عند رؤية الهلال"},
+    {"id": "clothes", "title": "عند لبس الملابس"}
+  ],
+  "azkar": [
+    {"id": 1, "category_id": "daily_general", "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ", "repeat": 100, "virtue": "البخاري"},
+    {"id": 2, "category_id": "daily_general", "text": "لَا إِلَهَ إِلَّا اللَّهُ", "repeat": 100, "virtue": "التوحيد"},
+    {"id": 3, "category_id": "daily_general", "text": "الْحَمْدُ لِلَّهِ", "repeat": 100, "virtue": "مسلم"},
+    {"id": 4, "category_id": "daily_general", "text": "اللَّهُ أَكْبَرُ", "repeat": 100, "virtue": "مسلم"},
+    {"id": 5, "category_id": "daily_general", "text": "أَسْتَغْفِرُ اللَّهَ", "repeat": 100, "virtue": "الرزق"},
+    {"id": 6, "category_id": "rain", "text": "اللَّهُمَّ صَيِّبًا نَافِعًا", "repeat": 1, "virtue": "البخاري"},
+    {"id": 7, "category_id": "rain", "text": "اللَّهُمَّ اجْعَلْهُ نَافِعًا لِلْعِبَادِ", "repeat": 1, "virtue": "النفع"},
+    {"id": 8, "category_id": "adhan", "text": "أَصْلَيْتُ عَلَى مَنْ صَلَّى", "repeat": 1, "virtue": "الترمذي"},
+    {"id": 9, "category_id": "adhan", "text": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ", "repeat": 1, "virtue": "الوسيلة"},
+    {"id": 10, "category_id": "adhan", "text": "صَلَّى اللَّهُ عَلَى مُحَمَّدٍ", "repeat": 1, "virtue": "بعد الأذان"},
+    {"id": 11, "category_id": "moon", "text": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللَّهُ", "repeat": 1, "virtue": "البخاري"},
+    {"id": 12, "category_id": "clothes", "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا", "repeat": 1, "virtue": "أبو داود"},
+    {"id": 13, "category_id": "clothes", "text": "بِسْمِ اللَّهِ", "repeat": 1, "virtue": "الترمذي"},
+    {"id": 14, "category_id": "clothes", "text": "الْحَمْدُ لِلَّهِ كَثِيرًا طَيِّبًا", "repeat": 1, "virtue": "ابن ماجه"},
+    {"id": 15, "category_id": "daily_general", "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ", "repeat": 100, "virtue": "البخاري"},
+    {"id": 16, "category_id": "rain", "text": "اللَّهُمَّ اجْعَلْهُ عَلَيْنَا نَافِعًا", "repeat": 1, "virtue": "النفع"}
+  ]
+}

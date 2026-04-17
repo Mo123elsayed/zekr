@@ -1,0 +1,17 @@
+{
+  "categories": [{"id": "postprayer", "title": "أذكار بعد الصلاة"}],
+  "azkar": [
+    {"id": 1, "category_id": "postprayer", "text": "سُبْحَانَ اللهِ", "repeat": 33, "virtue": "رواه مسلم"},
+    {"id": 2, "category_id": "postprayer", "text": "الْحَمْدُ لِلَّهِ", "repeat": 33, "virtue": "رواه مسلم"},
+    {"id": 3, "category_id": "postprayer", "text": "اللَّهُ أَكْبَرُ", "repeat": 34, "virtue": "رواه مسلم"},
+    {"id": 4, "category_id": "postprayer", "text": "لا إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لا شَرِيكَ لَهُ", "repeat": 1, "virtue": "رواه مسلم"},
+    {"id": 5, "category_id": "postprayer", "text": "أَسْتَغْفِرُ اللَّهَ", "repeat": 3, "virtue": "الاستغفار"},
+    {"id": 6, "category_id": "postprayer", "text": "اللَّهُمَّ أَنْتَ السَّلاَمُ وَمِنْكَ السَّلاَمُ", "repeat": 1, "virtue": "رواه مسلم"},
+    {"id": 7, "category_id": "postprayer", "text": "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ", "repeat": 1, "virtue": "رواه مسلم"},
+    {"id": 8, "category_id": "postprayer", "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ", "repeat": 1, "virtue": "التوبة"},
+    {"id": 9, "category_id": "postprayer", "text": "يَا رَبِّ اغْفِرْ لِي ذَنْبِي", "repeat": 1, "virtue": "الْمُسْلِمِينَ"},
+    {"id": 10, "category_id": "postprayer", "text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ", "repeat": 10, "virtue": "رواه مسلم"},
+    {"id": 11, "category_id": "postprayer", "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً", "repeat": 7, "virtue": "البقرة"},
+    {"id": 12, "category_id": "postprayer", "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ", "repeat": 3, "virtue": "رواه أبو داود"}
+  ]
+}
