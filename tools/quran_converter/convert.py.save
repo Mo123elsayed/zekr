@@ -1,0 +1,23 @@
+Done ✅
+import json
+
+input_file = "quran-uthmani.txt"
+output_file = "quran.json"
+
+result = []
+
+with open(input_file, "r", encoding="utf-8") as f:
+    for line in f:
+        parts = line.strip().split("|")
+        if len(parts) == 3:
+            surah, ayah, text = parts
+            result.append({
+                "surah": int(surah),
+                "ayah": int(ayah),
+                "text": text
+            })
+
+with open(output_file, "w", encoding="utf-8") as f:
+    json.dump(result, f, ensure_ascii=False, indent=2)
+
+print("Done ✅")
