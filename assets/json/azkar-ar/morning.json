@@ -12,8 +12,8 @@
       "text": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "aasbhnaawaasbhaalmlkllhwaalhmdllh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "asbahna wa asbaha al-mulku li allah wa al-hamdu li allah",
+      "translation": "We have entered the morning, and with the morning comes sovereignty—for Allah alone—and all praise is for Allah alone."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
       "text": "اللَّهُمَّ بِكَ أَصْبَحْنَا وَبِكَ أَمْسَيْنَا",
       "repeat": 1,
       "virtue": "رواه مسلم",
-      "transliteration": "aallhmbkaasbhnaawbkaamsynaa",
+      "transliteration": "allahumma bika asbahna wa bika amsayna",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -30,7 +30,7 @@
       "text": "اللَّهُمَّ مَا أَصْبَحَ بِي مِنْ نِعْمَةٍ فَمِنْكَ",
       "repeat": 1,
       "virtue": "رواه الترمذي",
-      "transliteration": "aallhmmaaaasbhbymnnamhfmnk",
+      "transliteration": "allahumma ma asbaha bi min ni'matin faminka",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -39,7 +39,7 @@
       "text": "اللَّهُمَّ عَافِنِي فِي بَدَنِي",
       "repeat": 3,
       "virtue": "رواه مسلم",
-      "transliteration": "aallhmaaafnyfybdny",
+      "transliteration": "allahumma 'afini fi badani",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -48,7 +48,7 @@
       "text": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ",
       "repeat": 4,
       "virtue": "رواه أبو داود",
-      "transliteration": "aallhmaanyaasbhtaashhdk",
+      "transliteration": "allahumma inni asbah tu ushhiduka",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -57,7 +57,7 @@
       "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
       "repeat": 1,
       "virtue": "آية الكرسي",
-      "transliteration": "aallhlaaaalhaalaahwaalhyaalqywm",
+      "transliteration": "allah la ilaha illa huwa al-hayyu al-qayyum",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -66,7 +66,7 @@
       "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
       "repeat": 3,
       "virtue": "الإخلاص",
-      "transliteration": "qlhwaallhaahd",
+      "transliteration": "qul huwa allahu ahad",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -75,7 +75,7 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
       "repeat": 3,
       "virtue": "الفلق",
-      "transliteration": "qlaaawdhbrbaalflq",
+      "transliteration": "qul a'udhu bi rabbi al-falaq",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -84,7 +84,7 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
       "repeat": 3,
       "virtue": "الناس",
-      "transliteration": "qlaaawdhbrbaalnaas",
+      "transliteration": "qul a'udhu bi rabbi an-nas",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -93,7 +93,7 @@
       "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ",
       "repeat": 3,
       "virtue": "رواه أبو داود",
-      "transliteration": "bsmaallhaaldhylaaydrmaaasmhshy",
+      "transliteration": "bismillah alladhi la yadhurru ma'a ismihi shay'un",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -102,7 +102,7 @@
       "text": "اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "aallhmaaalmaalghybwaalshhaadh",
+      "transliteration": "allahumma 'alimu al-ghaybi wa ash-shahadah",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -111,7 +111,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا",
       "repeat": 3,
       "virtue": "رواه ابن ماجه",
-      "transliteration": "aallhmaanyaasaalkalmaanaafaaa",
+      "transliteration": "allahumma inni as'aluka 'ilman nafi'an",
       "translation": "Dhikr of Allah (recitation)"
     },
     {

@@ -12,8 +12,8 @@
       "text": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ",
       "repeat": 1,
       "virtue": "رواه البخاري للهم",
-      "transliteration": "laaaalhaalaaaallhaalazymaalhlymlaaaalhaalaaaallhrbaalarshaalazym",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "la ilaha illa Allah al-azim al-halīm, la ilaha illa Allah rabb al-'arsh al-'azim",
+      "translation": "There is no god but Allah, the Most Great, the Most Forbearing. There is no god but Allah, Lord of the Great Throne."
     },
     {
       "id": 2,
@@ -21,8 +21,8 @@
       "text": "اللَّهُمَّ رَحْمَنَ الدُّنْيَا وَالآخِرَةِ وَرَحِيمَهُمَا ارْحَمْنِي رَحْمَةً تَغْنِينِي",
       "repeat": 1,
       "virtue": "الترمذي",
-      "transliteration": "aallhmrhmnaaldnyaawaalaakhrhwrhymhmaaaarhmnyrhmhtghnyny",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma rahmanad dunya wa al-akhirah wa rahimatuhuma arhamni rahmatan taghnini",
+      "translation": "O Allah, Merciful of this world and the Hereafter, and Merciful to both—have mercy on me with mercy that will suffice me."
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ أَصْلِحْ لِي شَأْنِي كُلَّهُ",
       "repeat": 7,
       "virtue": "البخاري",
-      "transliteration": "yaahyyaaqywmbrhmtkaastghythaaslhlyshaanyklh",
+      "transliteration": "ya hayyu ya qayyum birahmatika astaghith aslih li sha'ni kullah",
       "translation": "O Ever-Living, O Sustainer, I seek help by Your mercy; set all my affairs in order."
     },
     {
@@ -39,7 +39,7 @@
       "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ",
       "repeat": 7,
       "virtue": "البخاري",
-      "transliteration": "hsbyaallhlaaaalhaalaahwalyhtwklt",
+      "transliteration": "hasbiyallahu la ilaha illa huwa 'alayhi tawakkaltu",
       "translation": "Allah is sufficient for me; there is no god but Him. In Him I put my trust."
     },
     {
@@ -48,7 +48,7 @@
       "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً",
       "repeat": 7,
       "virtue": "البقرة",
-      "transliteration": "rbnaaaatnaafyaaldnyaahsnhwfyaalaakhrhhsnh",
+      "transliteration": "rabbana atina fi ad-dunya hasanatan wa fi al-akhirah hasanatan",
       "translation": "Our Lord, grant us good in this world and good in the Hereafter."
     },
     {
@@ -66,7 +66,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ",
       "repeat": 1,
       "virtue": "مسلم",
-      "transliteration": "aallhmaanyaasaalkaalhdywaaltqywaalafaaf",
+      "transliteration": "allahumma inni as'aluka al-huda wa at-taqa wal-'afafa",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -75,7 +75,7 @@
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
       "repeat": 100,
       "virtue": "البخاري",
-      "transliteration": "sbhaanaallhwbhmdh",
+      "transliteration": "subhanallahi wa bi hamdih",
       "translation": "Glorified is Allah, and praised is Him."
     },
     {
@@ -84,7 +84,7 @@
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ",
       "repeat": 3,
       "virtue": "مسلم",
-      "transliteration": "sbhaanaallhwbhmdhaddkhlqh",
+      "transliteration": "subhanallahi wa bi hamdih 'adada khalqih",
       "translation": "Glorified is Allah, and praised is Him, by the number of His creation."
     },
     {
@@ -93,7 +93,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ سَعَةً فِي الرِّزْقِ",
       "repeat": 1,
       "virtue": "الفرج",
-      "transliteration": "aallhmaanyaasaalksahfyaalrzq",
+      "transliteration": "allahumma inni as'aluka sa'atan fi ar-rizq",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -102,7 +102,7 @@
       "text": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً",
       "repeat": 7,
       "virtue": "ابن حبان",
-      "transliteration": "aallhmlaashlaalaamaajalthshlaa",
+      "transliteration": "allahumma la sahla illa ma ja'altahu sahla",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -111,7 +111,7 @@
       "text": "اللَّهُمَّ إِنِّي أَبْتَغِي مِنْكَ الْهُدَى وَالتُّقَى",
       "repeat": 1,
       "virtue": "مسلم",
-      "transliteration": "aallhmaanyaabtghymnkaalhdywaaltqy",
+      "transliteration": "allahumma inni abtaghi minka al-huda wa at-taqa",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -120,7 +120,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ",
       "repeat": 1,
       "virtue": "مسلم",
-      "transliteration": "aallhmaanyaasaalkaalaaafyh",
+      "transliteration": "allahumma inni as'aluka al-'afiyah",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -129,7 +129,7 @@
       "text": "اللَّهُمَّ فَرِّجْ هَمِّي",
       "repeat": 1,
       "virtue": "الفرج",
-      "transliteration": "aallhmfrjhmy",
+      "transliteration": "allahumma farrij hammi",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -138,7 +138,7 @@
       "text": "اللَّهُمَّ أَنْتَ سَلِيَّتِي فِي نَوَائِبِ الْحَوَادِثِ",
       "repeat": 1,
       "virtue": "أبو داود",
-      "transliteration": "aallhmaantslytyfynwaabaalhwaadth",
+      "transliteration": "allahumma anta saliyati fi nawib al-hawadith",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -147,7 +147,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ",
       "repeat": 1,
       "virtue": "البخاري",
-      "transliteration": "aallhmaanyaasaalkaaljnh",
+      "transliteration": "allahumma inni as'aluka al-jannah",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -156,7 +156,7 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ",
       "repeat": 1,
       "virtue": "الرضا",
-      "transliteration": "aallhmaanyaasaalkrdaak",
+      "transliteration": "allahumma inni as'aluka ridaka",
       "translation": "Dhikr of Allah (recitation)"
     },
     {
@@ -165,7 +165,7 @@
       "text": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ",
       "repeat": 1,
       "virtue": "الترمذي",
-      "transliteration": "aallhmaakfnybhlaalkanhraamk",
+      "transliteration": "allahumma akfinni bi halalika 'an haramika",
       "translation": "Dhikr of Allah (recitation)"
     }
   ]
