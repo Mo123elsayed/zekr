@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:zekr/core/routing/routes.dart';
 import 'package:zekr/view/ui/screens/home_screen.dart';
+import 'package:zekr/view/ui/widgets/bottom_nav_bar.dart';
 
 class AppRouter {
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.home:
         return MaterialPageRoute(
-          builder: (_) => const HomeScreen(),
+          builder: (_) => const BottomNavBar(),
           settings: settings,
         );
       // case '/details':

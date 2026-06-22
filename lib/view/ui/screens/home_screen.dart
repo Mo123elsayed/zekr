@@ -103,35 +103,37 @@ class HomeScreen extends StatelessWidget {
                     mainAxisExtent: 90.h,
                     crossAxisSpacing: 10.w,
                     childAspectRatio: 7 / 8,
-                    crossAxisCount: 1,
+                    crossAxisCount: 2,
                     children: [
-                      Container(
-                        child: Text('Category 1'),
-                        decoration: BoxDecoration(
-                          color: Colors.green[100],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
+                      Row(
+                        children: [
+                          Container(
+                            width: 40,
+                            height: 40,
+                            decoration: BoxDecoration(
+                              color: Colors.green[100],
+                              shape: BoxShape.circle,
+                            ),
+                            child: Icon(Icons.book, color: Colors.green[700]),
+                          ),
+                          SizedBox(width: 10),
+                          Text('Quran'),
+                        ],
                       ),
-                      Container(
-                        child: Text('Category 2'),
-                        decoration: BoxDecoration(
-                          color: Colors.green[100],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      Container(
-                        child: Text('Category 3'),
-                        decoration: BoxDecoration(
-                          color: Colors.green[100],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                      ),
-                      Container(
-                        child: Text('Category 4'),
-                        decoration: BoxDecoration(
-                          color: Colors.green[100],
-                          borderRadius: BorderRadius.circular(10),
-                        ),
+                      Row(
+                        children: [
+                          Container(
+                            width: 40,
+                            height: 40,
+                            decoration: BoxDecoration(
+                              color: Colors.green[100],
+                              shape: BoxShape.circle,
+                            ),
+                            child: Icon(Icons.book, color: Colors.green[700]),
+                          ),
+                          SizedBox(width: 10),
+                          Text('Quran'),
+                        ],
                       ),
                     ],
                   ),
