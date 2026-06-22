@@ -22,21 +22,25 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   final List<Map<String, dynamic>> _screens = [
     // Add your screens here
-    {'screen': const HomeScreen(), 'label': 'Home', 'icon': Icons.home},
+    {
+      'screen': const HomeScreen(),
+      'label': 'Home',
+      'icon': Icons.home_max_rounded,
+    },
     {
       'screen': const FavoritesScreen(), // Replace with your actual screen
       'label': 'Favorites',
-      'icon': Icons.search,
+      'icon': Icons.favorite_rounded,
     },
     {
       'screen': const SearchScreen(), // Replace with your actual screen
       'label': 'Search',
-      'icon': Icons.person,
+      'icon': Icons.search_rounded,
     },
     {
       'screen': const SettingsScreen(), // Replace with your actual screen
       'label': 'Settings',
-      'icon': Icons.person,
+      'icon': Icons.settings,
     },
   ];
 
@@ -47,7 +51,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
       bottomNavigationBar: Container(
         margin: const EdgeInsets.only(bottom: 15, left: 10, right: 10),
         decoration: BoxDecoration(
-          color: Colors.white,
+          borderRadius: BorderRadius.circular(20),
           boxShadow: [
             BoxShadow(
               color: Colors.black26,
@@ -57,16 +61,24 @@ class _BottomNavBarState extends State<BottomNavBar> {
           ],
         ),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(30),
+          borderRadius: BorderRadius.circular(20),
           child: BottomNavigationBar(
+            selectedItemColor: Colors.black,
+            unselectedItemColor: Colors.grey,
+            selectedLabelStyle: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            ),
+            unselectedLabelStyle: TextStyle(fontSize: 12, color: Colors.grey),
             elevation: 0,
-            type: BottomNavigationBarType.values.first,
+            type: BottomNavigationBarType.shifting,
             currentIndex: _selectedIndex,
             onTap: _onItemTapped,
             items: _screens
                 .map(
                   (screen) => BottomNavigationBarItem(
-                    icon: Icon(screen['icon']),
+                    icon: Icon(screen['icon'], size: 10),
                     label: screen['label'],
                   ),
                 )
