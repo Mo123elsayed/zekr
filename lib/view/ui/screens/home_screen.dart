@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:zekr/core/helpers/extensions.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -88,13 +89,36 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 20),
-                Container(
-                  width: double.infinity,
-                  alignment: Alignment.bottomLeft,
-                  child: Text(
-                    'Categories',
-                    style: TextStyle(fontSize: 14, fontFamily: "Pliant"),
-                  ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Categories',
+                      style: TextStyle(fontSize: 14, fontFamily: "Pliant"),
+                    ),
+                    TextButton(
+                      onPressed: () {
+                        context.pushNamed()
+                      },
+                      child: Row(
+                        children: [
+                          Text(
+                            'See All',
+                            style: TextStyle(
+                              fontSize: 14,
+                              color: Colors.green[700],
+                              fontFamily: "Pliant",
+                            ),
+                          ),
+                          Icon(
+                            Icons.arrow_forward_ios_rounded,
+                            color: Colors.green[700],
+                            size: 15,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
                 ),
                 SizedBox(height: 10),
                 Expanded(

@@ -35,6 +35,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_screenutil: ^5.9.3
+  flutter_bloc: ^9.1.1
+  equatable: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -88,6 +90,11 @@ flutter:
         - asset: assets/fonts/Pliant/Pliant-Regular.ttf
         - asset: assets/fonts/Pliant/Pliant-Bold.ttf
           weight: 700
+    - family: DMSerifText
+      fonts:
+        - asset: assets/fonts/DMSerifText/DMSerifText-Regular.ttf
+        - asset: assets/fonts/DMSerifText/DMSerifText-Italic.ttf
+          style: italic      
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
