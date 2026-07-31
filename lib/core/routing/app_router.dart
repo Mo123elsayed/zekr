@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:zekr/core/routing/routes.dart';
 import 'package:zekr/view/ui/screens/details_screen.dart';
 import 'package:zekr/view/ui/screens/favorites_screen.dart';
-import 'package:zekr/view/ui/screens/home_screen.dart';
 import 'package:zekr/view/ui/screens/onboarding_screen.dart';
 import 'package:zekr/view/ui/screens/search_screen.dart';
 import 'package:zekr/view/ui/screens/splash_screen.dart';
