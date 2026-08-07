@@ -1,72 +1,55 @@
 [
   {
     "id": "morning",
-    "title": "Morning Azkar",
-    "titleAr": "أذكار الصباح",
-    "icon": "assets/imgs/svg/morning.svg",
+    "title": "أذكار الصباح",
     "filePath": "assets/json/azkar-ar/morning.json"
   },
   {
     "id": "evening",
-    "title": "Evening Azkar",
-    "titleAr": "أذكار المساء",
-    "icon": "assets/imgs/svg/evening.svg",
+    "title": "أذكار المساء",
     "filePath": "assets/json/azkar-ar/evening.json"
   },
   {
     "id": "sleep",
-    "title": "Sleep Azkar",
-    "titleAr": "أذكار النوم",
-    "icon": "assets/imgs/svg/sleep.svg",
+    "title": "أذكار النوم",
     "filePath": "assets/json/azkar-ar/sleep.json"
   },
   {
     "id": "postprayer",
-    "title": "Post-Prayer Azkar",
-    "titleAr": "أذكار بعد الصلاة",
+    "title": "أذكار بعد الصلاة",
     "icon": "assets/imgs/svg/post_prayer.svg",
     "filePath": "assets/json/azkar-ar/postprayer.json"
   },
   {
     "id": "ruqyah",
-    "title": "Ruqyah",
-    "titleAr": "الرقية الشرعية",
+    "title": "الرقية الشرعية",
     "icon": "assets/imgs/svg/ruqyah.svg",
     "filePath": "assets/json/azkar-ar/ruqyah.json"
   },
   {
     "id": "anxiety",
-    "title": "Anxiety Relief",
-    "titleAr": "أذكار الهم والحزن",
+    "title": "أذكار الهم والحزن",
     "icon": "assets/imgs/svg/anxiety.svg",
     "filePath": "assets/json/azkar-ar/anxiety.json"
   },
   {
     "id": "rizq",
-    "title": "Rizq & Blessings",
-    "titleAr": "أذكار الرزق",
-    "icon": "assets/imgs/svg/rizq.svg",
+    "title": "أذكار الرزق",
     "filePath": "assets/json/azkar-ar/rizq.json"
   },
   {
     "id": "deceased",
-    "title": "Dua for the Deceased",
-    "titleAr": "أدعية للميت",
-    "icon": "assets/imgs/svg/deceased.svg",
+    "title": "أدعية للميت",
     "filePath": "assets/json/azkar-ar/deceased.json"
   },
   {
     "id": "occasional",
-    "title": "Occasional Duas",
-    "titleAr": "أذكار المناسبات",
-    "icon": "assets/imgs/svg/occasional.svg",
+    "title": "أذكار المناسبات",
     "filePath": "assets/json/azkar-ar/occasional.json"
   },
   {
     "id": "quran",
-    "title": "Quran",
-    "titleAr": "القرآن الكريم",
-    "icon": "assets/imgs/svg/quran.svg",
+    "title": "القرآن الكريم",
     "filePath": "assets/json/azkar-ar/quran.json"
   }
 ]
