@@ -3,8 +3,8 @@ import 'package:zekr/data/datasources/local_datasources.dart';
 import 'package:zekr/data/repositories/categories_repo/categories_abstract_repo.dart';
 
 class CategoriesImplementationRepo implements CategoriesAbstractRepo {
-  final LocalDataSource ?localDataSource;
-  CategoriesImplementationRepo({this.localDataSource});
+  final LocalDataSource localDataSource;
+  CategoriesImplementationRepo({required this.localDataSource});
   /// Loads the categories from a data source.
   /// Returns an [Either] containing the result of the operation.
   /// The [Either] can be either a success or a failure, depending on the outcome of the loading process.
@@ -13,7 +13,7 @@ class CategoriesImplementationRepo implements CategoriesAbstractRepo {
   Future<Either> loadCategories() async {
     // Implementation for loading categories
     try {
-      final categories = await localDataSource?.loadCategories();
+      final categories = await localDataSource.loadCategories();
       return Right(categories);
     } catch (e) {
       return Left(e.toString());
@@ -28,7 +28,7 @@ class CategoriesImplementationRepo implements CategoriesAbstractRepo {
   Future<Either> loadAzkar(String fileName) async {
     // Implementation for loading azkar based on the provided fileName
     try {
-      final azkar = await localDataSource?.loadAzkar(fileName);
+      final azkar = await localDataSource.loadAzkar(fileName);
       return Right(azkar);
     } catch (e) {
       return Left(e.toString());

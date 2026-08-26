@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zekr/core/routing/routes.dart';
+import 'package:zekr/view/ui/screens/categories_screen.dart';
 import 'package:zekr/view/ui/screens/details_screen.dart';
 import 'package:zekr/view/ui/screens/favorites_screen.dart';
 import 'package:zekr/view/ui/screens/onboarding_screen.dart';
@@ -8,7 +9,6 @@ import 'package:zekr/view/ui/screens/splash_screen.dart';
 import 'package:zekr/view/ui/widgets/bottom_nav_bar.dart';
 
 class AppRouter {
-
   Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case Routes.home:
@@ -16,7 +16,7 @@ class AppRouter {
           builder: (_) => const BottomNavBar(),
           settings: settings,
         );
-      case Routes.details: 
+      case Routes.details:
         return MaterialPageRoute(builder: (_) => const DetailsScreen());
       case Routes.favorites:
         return MaterialPageRoute(builder: (_) => const FavoritesScreen());
@@ -26,6 +26,8 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const SearchScreen());
       case Routes.splash:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
+      case Routes.categories:
+        return MaterialPageRoute(builder: (_) => const CategoriesScreen());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
