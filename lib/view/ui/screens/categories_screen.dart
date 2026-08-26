@@ -12,11 +12,19 @@ class CategoriesScreen extends StatelessWidget {
       create: (context) => CategoriesCubit()..getCategories(),
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.green[100],
           leading: IconButton(
             onPressed: context.pop,
-            icon: const Icon(Icons.arrow_back_ios_new),
+            icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),
           ),
-          title: const Text('Categories'),
+          title: const Text(
+            'Categories',
+            style: TextStyle(
+              color: Colors.black,
+              fontFamily: "DMSerifText",
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           centerTitle: true,
         ),
         body: BlocConsumer<CategoriesCubit, CategoriesState>(
@@ -44,12 +52,32 @@ class CategoriesScreen extends StatelessWidget {
             if (state is CategoriesSuccess) {
               return ListView.builder(
                 itemCount: state.categories.length,
-                itemBuilder: (context, index) => ListTile(
-                  leading: const Icon(Icons.category),
-                  title: Text(state.categories[index].title),
-                  onTap: () {
-                    // Handle category tap
-                  },
+                itemBuilder: (context, index) => Container(
+                  margin: const EdgeInsets.all(10),
+                  child: ListTile(
+                    trailing: IconButton(
+                      icon: const Icon(Icons.arrow_forward_ios_rounded),
+                      onPressed: () {
+                        // Handle arrow forward button press
+                      },
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    tileColor: Colors.green[100],
+                    leading: const Icon(Icons.category),
+
+                    title: Text(
+                      state.categories[index].title,
+                      style: const TextStyle(
+                        fontFamily: "Cairo",
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    onTap: () {
+                      // Handle category tap
+                    },
+                  ),
                 ),
               );
             }
