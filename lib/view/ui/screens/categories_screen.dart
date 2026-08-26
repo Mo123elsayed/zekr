@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:zekr/core/helpers/extensions.dart';
 import 'package:zekr/view_model/categories_cubit/categories_cubit.dart';
 
 class CategoriesScreen extends StatelessWidget {
@@ -16,12 +17,21 @@ class CategoriesScreen extends StatelessWidget {
             body: BlocConsumer<CategoriesCubit, CategoriesState>(
               listener: (context, state) {
                 // TODO: implement listener
+                if (state is CategoriesFailed) {
+                  AlertDialog(
+                    title: Center(child: Text('Error: ${state.errorMessage}')),
+                    actions: [
+                      TextButton(
+                        onPressed: () => context.pop(),
+                        child: Text('Ok'),
+                      ),
+                    ],
+                  );
+                }
               },
               builder: (context, state) {
                 if (state is CategoriesLoading) {
                   return const Center(child: CircularProgressIndicator());
-                } else if (state is CategoriesFailed) {
-                  return Center(child: Text('Error: ${state.errorMessage}'));
                 }
                 if (state is CategoriesSuccess) {
                   return ListView.builder(
@@ -38,7 +48,6 @@ class CategoriesScreen extends StatelessWidget {
                 return Center(child: Text('No categories available'));
               },
             ),
-            
           );
         },
       ),
