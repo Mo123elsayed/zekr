@@ -15,11 +15,12 @@ class LocalDataSource {
     return parsedData;
   }
 
-  Future<List<AzkarModel>> loadAzkar(String fileName) async {
-    final jsonString = await rootBundle.loadString('$fileName');
+  Future<AzkarModel> loadAzkar(String fileName) async {
+    final jsonString = await rootBundle.loadString(
+      'assets/json/azkar-ar/$fileName.json',
+    );
 
-    final List<dynamic> data = jsonDecode(jsonString);
-    final parsedData = data.map((e) => AzkarModel.fromJson(e)).toList();
-    return parsedData;
+    final Map<String, dynamic> data = jsonDecode(jsonString);
+    return AzkarModel.fromJson(data);
   }
 }

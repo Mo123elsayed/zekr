@@ -16,8 +16,8 @@
       "text": "باسمك اللهم أموت وأحيا",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "baasmkaallhmaamwtwaahyaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "bismika allahumma amutu wa ahya",
+      "translation": "In Your name, O Allah, I die and I live."
     },
     {
       "id": 2,
@@ -25,8 +25,8 @@
       "text": "اللهم قني عذابك يوم تبعث عبادك",
       "repeat": 3,
       "virtue": "رواه البخاري",
-      "transliteration": "aallhmqnyadhaabkywmtbathabaadk",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma qini 'adhabaka yawma tab'athu 'ibadak",
+      "translation": "O Allah, protect me from Your punishment on the Day You resurrect Your servants."
     },
     {
       "id": 3,
@@ -34,8 +34,8 @@
       "text": "باسمك ربي وضعت جنبي وبك أرفعه فإن أمسكت نفسي فارحمها وإن أرسلتها فاحفظها بما تحفظ به عبادك الصالحين",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "baasmkrbywdatjnbywbkaarfahfaanaamsktnfsyfaarhmhaawaanaarslthaafaahfzhaabmaathfzbhabaadkaalsaalhyn",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "bismika rabbi wada'tu janbi wa bika arfa'uhu fa in amsakta nafsi farhamha wa in arsaltaha fahfazha bima tahfazu bihi 'ibadaka as-salihin",
+      "translation": "In Your name, my Lord, I lay down my side, and by You I raise it. If You take my soul, have mercy on it; and if You return it, protect it as You protect Your righteous servants."
     },
     {
       "id": 4,
@@ -43,8 +43,8 @@
       "text": "سبحان الله",
       "repeat": 33,
       "virtue": "رواه مسلم",
-      "transliteration": "sbhaanaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "subhanallah",
+      "translation": "Glory be to Allah."
     },
     {
       "id": 5,
@@ -52,8 +52,8 @@
       "text": "الحمد لله",
       "repeat": 33,
       "virtue": "رواه مسلم",
-      "transliteration": "aalhmdllh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "al-hamdu lillah",
+      "translation": "All praise is due to Allah."
     },
     {
       "id": 6,
@@ -61,8 +61,8 @@
       "text": "الله أكبر",
       "repeat": 34,
       "virtue": "رواه مسلم",
-      "transliteration": "aallhaakbr",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahu akbar",
+      "translation": "Allah is the Greatest."
     },
     {
       "id": 7,
@@ -70,8 +70,8 @@
       "text": "قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
       "repeat": 3,
       "virtue": "الإخلاص",
-      "transliteration": "qlhwaallhaahdaallhaalsmdlmyldwlmywldwlmyknlhkfwaaaahd",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul huwa allahu ahad, allahu as-samad, lam yalid wa lam yulad, wa lam yakun lahu kufuwan ahad",
+      "translation": "Say: He is Allah, the One. Allah, the Self-Sufficient. He neither begets nor is born, and there is none comparable to Him."
     },
     {
       "id": 8,
@@ -79,8 +79,8 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ",
       "repeat": 3,
       "virtue": "الفلق",
-      "transliteration": "qlaaawdhbrbaalflqmnshrmaakhlq",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul a'udhu bi rabbi al-falaq, min sharri ma khalaq",
+      "translation": "Say: I seek refuge in the Lord of the daybreak, from the evil of what He has created."
     },
     {
       "id": 9,
@@ -88,8 +88,8 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ",
       "repeat": 3,
       "virtue": "الناس",
-      "transliteration": "qlaaawdhbrbaalnaasmlkaalnaasaalhaalnaas",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul a'udhu bi rabbi an-nas, maliki an-nas, ilahi an-nas",
+      "translation": "Say: I seek refuge in the Lord of mankind, the King of mankind, the God of mankind."
     },
     {
       "id": 10,
@@ -97,8 +97,8 @@
       "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ",
       "repeat": 1,
       "virtue": "آية الكرسي",
-      "transliteration": "aallhlaaaalhaalaahwaalhyaalqywmlaataakhdhhsnhwlaanwm",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahu la ilaha illa huwa al-hayyu al-qayyum, la ta'khudhuhu sinatun wa la nawm",
+      "translation": "Allah—there is no deity except Him, the Ever-Living, the Sustainer of all. Neither drowsiness nor sleep overtakes Him."
     },
     {
       "id": 11,
@@ -106,8 +106,8 @@
       "text": "الحمد لله الذي أحيانا بعدما أماتنا وإليه النشور",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "aalhmdllhaaldhyaahyaanaabadmaaaamaatnaawaalyhaalnshwr",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "al-hamdu lillahi alladhi ahyana ba'dama amatana wa ilayhi an-nushur",
+      "translation": "All praise is due to Allah who gave us life after causing us to die, and to Him is the resurrection."
     },
     {
       "id": 12,
@@ -115,8 +115,8 @@
       "text": "الحمد لله الذي عافاني في جسدي ورد علي روحي",
       "repeat": 1,
       "virtue": "رواه أبو داود",
-      "transliteration": "aalhmdllhaaldhyaaafaanyfyjsdywrdalyrwhy",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "al-hamdu lillahi alladhi 'afani fi jasadi wa radda 'alayya ruhi",
+      "translation": "All praise is due to Allah who restored health to my body and returned my soul to me."
     },
     {
       "id": 13,
@@ -124,8 +124,8 @@
       "text": "لا إله إلا الله وحده لا شريك له له الملك وله الحمد",
       "repeat": 1,
       "virtue": "رواه البخاري",
-      "transliteration": "laaaalhaalaaaallhwhdhlaashryklhlhaalmlkwlhaalhmd",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "la ilaha illa allahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd",
+      "translation": "There is no deity except Allah alone, without partner. To Him belongs the dominion and to Him belongs all praise."
     },
     {
       "id": 14,
@@ -133,8 +133,8 @@
       "text": "إِنَّ فِي خَلْقِ السَّمَوَاتِ وَالأَرْضِ وَاخْتِلاَفِ اللَّيْلِ وَالنَّهَارِ",
       "repeat": 1,
       "virtue": "آل عمران",
-      "transliteration": "aanfykhlqaalsmwaatwaalaardwaakhtlaafaallylwaalnhaar",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "inna fi khalqi as-samawati wal-ardi wakhtilafi al-layli wan-nahar",
+      "translation": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs."
     }
   ]
 }

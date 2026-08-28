@@ -9,164 +9,228 @@
     {
       "id": 1,
       "category_id": "anxiety",
-      "text": "لاَ إِلَهَ إِلاَّ اللَّهُ الْعَظِيمُ الْحَلِيمُ لاَ إِلَهَ إِلاَّ اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ",
+      "text": "لَا إِلَهَ إِلَّا اللَّهُ الْعَظِيمُ الْحَلِيمُ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ الْعَرْشِ الْعَظِيمِ، لَا إِلَهَ إِلَّا اللَّهُ رَبُّ السَّمَاوَاتِ، وَرَبُّ الْأَرْضِ، وَرَبُّ الْعَرْشِ الْكَرِيمِ",
       "repeat": 1,
-      "virtue": "رواه البخاري للهم",
-      "transliteration": "la ilaha illa Allah al-azim al-halīm, la ilaha illa Allah rabb al-'arsh al-'azim",
-      "translation": "There is no god but Allah, the Most Great, the Most Forbearing. There is no god but Allah, Lord of the Great Throne."
+      "virtue": "رواه البخاري ومسلم",
+      "transliteration": "la ilaha illa Allah al-azim al-halim, la ilaha illa Allah rabb al-arsh al-azim, la ilaha illa Allah rabb as-samawat, wa rabb al-ard, wa rabb al-arsh al-karim",
+      "translation": "There is no god but Allah, the Mighty, the Forbearing. There is no god but Allah, Lord of the Mighty Throne. There is no god but Allah, Lord of the heavens, Lord of the earth, and Lord of the Noble Throne."
     },
     {
       "id": 2,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ رَحْمَنَ الدُّنْيَا وَالآخِرَةِ وَرَحِيمَهُمَا ارْحَمْنِي رَحْمَةً تَغْنِينِي",
+      "text": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي",
       "repeat": 1,
-      "virtue": "الترمذي",
-      "transliteration": "allahumma rahmanad dunya wa al-akhirah wa rahimatuhuma arhamni rahmatan taghnini",
-      "translation": "O Allah, Merciful of this world and the Hereafter, and Merciful to both—have mercy on me with mercy that will suffice me."
+      "virtue": "رواه أحمد وابن حبان، وصححه الألباني",
+      "transliteration": "allahumma inni abduka, ibnu abdika, ibnu amatika, nasiyati bi yadik, madin fiyya hukmuk, adlun fiyya qada'uk, as'aluka bi kulli ismin huwa lak, sammayta bihi nafsak, aw allamtahu ahadan min khalqik, aw anzaltahu fi kitabik, aw ista'tharta bihi fi ilmil-ghayb indak, an tajal al-qur'ana rabi'a qalbi, wa nur sadri, wa jala'a huzni, wa dhahaba hammi",
+      "translation": "O Allah, I am Your servant, the son of Your servant, the son of Your female servant. My forelock is in Your hand. Your command concerning me is ever carried out, and Your decree concerning me is just. I ask You by every name that belongs to You, by which You have named Yourself, taught to any of Your creation, revealed in Your Book, or kept exclusively in the knowledge of the unseen with You, to make the Quran the spring of my heart, the light of my chest, the removal of my sorrow, and the departure of my worry."
     },
     {
       "id": 3,
       "category_id": "anxiety",
-      "text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ أَصْلِحْ لِي شَأْنِي كُلَّهُ",
-      "repeat": 7,
-      "virtue": "البخاري",
-      "transliteration": "ya hayyu ya qayyum birahmatika astaghith aslih li sha'ni kullah",
-      "translation": "O Ever-Living, O Sustainer, I seek help by Your mercy; set all my affairs in order."
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْجُبْنِ وَالْبُخْلِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ",
+      "repeat": 1,
+      "virtue": "رواه البخاري",
+      "transliteration": "allahumma inni audhu bika min al-hammi wal-hazan, wa audhu bika min al-ajzi wal-kasal, wa audhu bika min al-jubni wal-bukhl, wa audhu bika min ghalabat ad-dayni wa qahr ar-rijal",
+      "translation": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, and from the burden of debt and being overpowered by people."
     },
     {
       "id": 4,
       "category_id": "anxiety",
-      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ",
-      "repeat": 7,
-      "virtue": "البخاري",
-      "transliteration": "hasbiyallahu la ilaha illa huwa 'alayhi tawakkaltu",
-      "translation": "Allah is sufficient for me; there is no god but Him. In Him I put my trust."
+      "text": "يَا حَيُّ يَا قَيُّومُ، بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ",
+      "repeat": 1,
+      "virtue": "رواه الحاكم",
+      "transliteration": "ya hayyu ya qayyum, bi rahmatika astaghith, aslih li shani kullah, wa la takilni ila nafsi tarfata ayn",
+      "translation": "O Ever-Living, O Sustainer, by Your mercy I seek help. Set right all of my affairs, and do not leave me to myself even for the blink of an eye."
     },
     {
       "id": 5,
       "category_id": "anxiety",
-      "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً",
-      "repeat": 7,
-      "virtue": "البقرة",
-      "transliteration": "rabbana atina fi ad-dunya hasanatan wa fi al-akhirah hasanatan",
-      "translation": "Our Lord, grant us good in this world and good in the Hereafter."
+      "text": "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلًا",
+      "repeat": 1,
+      "virtue": "رواه ابن حبان",
+      "transliteration": "allahumma la sahla illa ma jaaltahu sahlan, wa anta tajal al-hazna idha shi'ta sahlan",
+      "translation": "O Allah, there is no ease except in what You make easy, and You can make hardship easy if You will."
     },
     {
       "id": 6,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ وَالْعَجْزِ",
+      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
       "repeat": 1,
-      "virtue": "البخاري",
-      "transliteration": "aallhmaanyaaawdhbkmnaalhmwaalhznwaalajz",
-      "translation": "O Allah, I seek refuge in You from worry, grief, incapacity, and laziness."
+      "virtue": "التوبة: 129",
+      "transliteration": "hasbiya Allahu la ilaha illa huwa, alayhi tawakkaltu, wa huwa rabb al-arsh al-azim",
+      "translation": "Allah is sufficient for me. There is no god but Him. Upon Him I rely, and He is the Lord of the Mighty Throne."
     },
     {
       "id": 7,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى وَالتُّقَى وَالْعَفَافَ",
+      "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً، وَفِي الْآخِرَةِ حَسَنَةً، وَقِنَا عَذَابَ النَّارِ",
       "repeat": 1,
-      "virtue": "مسلم",
-      "transliteration": "allahumma inni as'aluka al-huda wa at-taqa wal-'afafa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "البقرة: 201",
+      "transliteration": "rabbana atina fi ad-dunya hasanatan, wa fi al-akhirati hasanatan, wa qina adhaba an-nar",
+      "translation": "Our Lord, grant us good in this world and good in the Hereafter, and protect us from the punishment of the Fire."
     },
     {
       "id": 8,
       "category_id": "anxiety",
-      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
-      "repeat": 100,
-      "virtue": "البخاري",
-      "transliteration": "subhanallahi wa bi hamdih",
-      "translation": "Glorified is Allah, and praised is Him."
+      "text": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+      "repeat": 1,
+      "virtue": "الأنبياء: 87",
+      "transliteration": "la ilaha illa anta subhanaka inni kuntu min az-zalimin",
+      "translation": "There is no god but You. Glory be to You. Indeed, I have been among the wrongdoers."
     },
     {
       "id": 9,
       "category_id": "anxiety",
-      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ",
-      "repeat": 3,
-      "virtue": "مسلم",
-      "transliteration": "subhanallahi wa bi hamdih 'adada khalqih",
-      "translation": "Glorified is Allah, and praised is Him, by the number of His creation."
+      "text": "رَبِّ إِنِّي لِمَا أَنْزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "repeat": 1,
+      "virtue": "القصص: 24",
+      "transliteration": "rabbi inni lima anzalta ilayya min khayrin faqir",
+      "translation": "My Lord, indeed I am in need of whatever good You send down to me."
     },
     {
       "id": 10,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ سَعَةً فِي الرِّزْقِ",
+      "text": "رَبِّ اشْرَحْ لِي صَدْرِي، وَيَسِّرْ لِي أَمْرِي، وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي، يَفْقَهُوا قَوْلِي",
       "repeat": 1,
-      "virtue": "الفرج",
-      "transliteration": "allahumma inni as'aluka sa'atan fi ar-rizq",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "طه: 25-28",
+      "transliteration": "rabbi ishrah li sadri, wa yassir li amri, wahlul uqdatan min lisani, yafqahu qawli",
+      "translation": "My Lord, expand my chest for me, ease my task for me, and untie the knot from my tongue so that they may understand my speech."
     },
     {
       "id": 11,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ لاَ سَهْلَ إِلاَّ مَا جَعَلْتَهُ سَهْلاً",
-      "repeat": 7,
-      "virtue": "ابن حبان",
-      "transliteration": "allahumma la sahla illa ma ja'altahu sahla",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا، وَتَوَفَّنَا مُسْلِمِينَ",
+      "repeat": 1,
+      "virtue": "الأعراف: 126",
+      "transliteration": "rabbana afrigh alayna sabran, wa tawaffana muslimin",
+      "translation": "Our Lord, pour upon us patience, and let us die as Muslims in submission to You."
     },
     {
       "id": 12,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَبْتَغِي مِنْكَ الْهُدَى وَالتُّقَى",
+      "text": "رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا، رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا، رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ، وَاعْفُ عَنَّا، وَاغْفِرْ لَنَا، وَارْحَمْنَا، أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
       "repeat": 1,
-      "virtue": "مسلم",
-      "transliteration": "allahumma inni abtaghi minka al-huda wa at-taqa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "البقرة: 286",
+      "transliteration": "rabbana la tu'akhidhna in nasina aw akhta'na, rabbana wa la tahmil alayna isran kama hamaltahu ala alladhina min qablina, rabbana wa la tuhammilna ma la taqata lana bih, wa'fu anna, waghfir lana, warhamna, anta mawlana fansurna ala al-qawm al-kafirin",
+      "translation": "Our Lord, do not hold us accountable if we forget or make a mistake. Our Lord, do not place upon us a burden as You placed upon those before us. Our Lord, do not burden us with what we have no strength to bear. Pardon us, forgive us, and have mercy upon us. You are our Protector, so grant us victory over the disbelieving people."
     },
     {
       "id": 13,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ",
+      "text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا، وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً، إِنَّكَ أَنْتَ الْوَهَّابُ",
       "repeat": 1,
-      "virtue": "مسلم",
-      "transliteration": "allahumma inni as'aluka al-'afiyah",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "آل عمران: 8",
+      "transliteration": "rabbana la tuzigh qulubana bada idh hadaytana, wa hab lana min ladunka rahmatan, innaka anta al-wahhab",
+      "translation": "Our Lord, do not let our hearts deviate after You have guided us, and grant us mercy from Yourself. Indeed, You are the Bestower."
     },
     {
       "id": 14,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ فَرِّجْ هَمِّي",
+      "text": "رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا، وَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
       "repeat": 1,
-      "virtue": "الفرج",
-      "transliteration": "allahumma farrij hammi",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "البقرة: 250",
+      "transliteration": "rabbana afrigh alayna sabran wa thabbit aqdamana, wansurna ala al-qawm al-kafirin",
+      "translation": "Our Lord, pour upon us patience, make our feet firm, and grant us victory over the disbelieving people."
     },
     {
       "id": 15,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ أَنْتَ سَلِيَّتِي فِي نَوَائِبِ الْحَوَادِثِ",
+      "text": "رَبَّنَا ظَلَمْنَا أَنْفُسَنَا، وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
       "repeat": 1,
-      "virtue": "أبو داود",
-      "transliteration": "allahumma anta saliyati fi nawib al-hawadith",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "الأعراف: 23",
+      "transliteration": "rabbana zalamna anfusana, wa in lam taghfir lana wa tarhamna la nakunanna min al-khasirin",
+      "translation": "Our Lord, we have wronged ourselves. If You do not forgive us and have mercy upon us, we will surely be among the losers."
     },
     {
       "id": 16,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْجَنَّةَ",
+      "text": "رَبِّ أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
       "repeat": 1,
-      "virtue": "البخاري",
-      "transliteration": "allahumma inni as'aluka al-jannah",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "الأنبياء: 83",
+      "transliteration": "rabbi anni massaniya ad-durru wa anta arham ar-rahimin",
+      "translation": "My Lord, indeed adversity has touched me, and You are the Most Merciful of those who show mercy."
     },
     {
       "id": 17,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ",
+      "text": "رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ، وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُرُونِ",
       "repeat": 1,
-      "virtue": "الرضا",
-      "transliteration": "allahumma inni as'aluka ridaka",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "المؤمنون: 97-98",
+      "transliteration": "rabbi audhu bika min hamazat ash-shayatin, wa audhu bika rabbi an yahdurun",
+      "translation": "My Lord, I seek refuge in You from the incitements of the devils, and I seek refuge in You, my Lord, lest they be present with me."
     },
     {
       "id": 18,
       "category_id": "anxiety",
-      "text": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ",
+      "text": "اللَّهُمَّ رَحْمَتَكَ أَرْجُو، فَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ، وَأَصْلِحْ لِي شَأْنِي كُلَّهُ، لَا إِلَهَ إِلَّا أَنْتَ",
       "repeat": 1,
-      "virtue": "الترمذي",
-      "transliteration": "allahumma akfinni bi halalika 'an haramika",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود",
+      "transliteration": "allahumma rahmataka arju, fala takilni ila nafsi tarfata ayn, wa aslih li shani kullah, la ilaha illa ant",
+      "translation": "O Allah, it is Your mercy that I hope for, so do not leave me to myself even for the blink of an eye. Set right all of my affairs. There is no god but You."
+    },
+    {
+      "id": 19,
+      "category_id": "anxiety",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْهُدَى، وَالتُّقَى، وَالْعَفَافَ، وَالْغِنَى",
+      "repeat": 1,
+      "virtue": "رواه مسلم",
+      "transliteration": "allahumma inni as'aluka al-huda, wat-tuqa, wal-afafa, wal-ghina",
+      "translation": "O Allah, I ask You for guidance, piety, chastity, and self-sufficiency."
+    },
+    {
+      "id": 20,
+      "category_id": "anxiety",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "allahumma inni as'aluka al-afwa wal-afiyata fid-dunya wal-akhirah",
+      "translation": "O Allah, I ask You for pardon and well-being in this world and the Hereafter."
+    },
+    {
+      "id": 21,
+      "category_id": "anxiety",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنَ الْخَيْرِ كُلِّهِ، عَاجِلِهِ وَآجِلِهِ، مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ، وَأَعُوذُ بِكَ مِنَ الشَّرِّ كُلِّهِ، عَاجِلِهِ وَآجِلِهِ، مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ",
+      "repeat": 1,
+      "virtue": "رواه ابن ماجه",
+      "transliteration": "allahumma inni as'aluka min al-khayri kullihi, ajilihi wa ajilihi, ma alimtu minhu wa ma lam a'lam, wa audhu bika min ash-sharri kullihi, ajilihi wa ajilihi, ma alimtu minhu wa ma lam a'lam",
+      "translation": "O Allah, I ask You for all good, immediate and later, what I know of it and what I do not know. And I seek refuge in You from all evil, immediate and later, what I know of it and what I do not know."
+    },
+    {
+      "id": 22,
+      "category_id": "anxiety",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ، وَأَعُوذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ",
+      "repeat": 1,
+      "virtue": "دعاء",
+      "transliteration": "allahumma inni as'aluka ridaka wal-jannah, wa audhu bika min sakhatika wan-nar",
+      "translation": "O Allah, I ask You for Your pleasure and Paradise, and I seek refuge in You from Your displeasure and the Fire."
+    },
+    {
+      "id": 23,
+      "category_id": "anxiety",
+      "text": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "repeat": 1,
+      "virtue": "رواه الترمذي",
+      "transliteration": "allahumma akfini bi halalika an haramika, wa aghnini bi fadlika amman siwak",
+      "translation": "O Allah, suffice me with what You have made lawful instead of what You have made unlawful, and make me independent by Your grace of all those besides You."
+    },
+    {
+      "id": 24,
+      "category_id": "anxiety",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeat": 100,
+      "virtue": "رواه البخاري ومسلم",
+      "transliteration": "subhana Allah wa bi hamdih",
+      "translation": "Glory be to Allah and praise be to Him."
+    },
+    {
+      "id": 25,
+      "category_id": "anxiety",
+      "text": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "astaghfiru Allah al-azim alladhi la ilaha illa huwa al-hayyu al-qayyum wa atubu ilayh",
+      "translation": "I seek forgiveness from Allah the Mighty, there is no god but Him, the Ever-Living, the Sustainer, and I repent to Him."
     }
   ]
 }
+

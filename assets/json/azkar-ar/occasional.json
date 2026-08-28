@@ -27,144 +27,171 @@
       "category_id": "daily_general",
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
       "repeat": 100,
-      "virtue": "البخاري",
-      "transliteration": "sbhaanaallhwbhmdh",
-      "translation": "Glorified is Allah, and praised is Him."
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wa bihamdih",
+      "translation": "Glory and praise be to Allah."
     },
     {
       "id": 2,
       "category_id": "daily_general",
-      "text": "لَا إِلَهَ إِلَّا اللَّهُ",
+      "text": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "repeat": 100,
-      "virtue": "التوحيد",
-      "transliteration": "laaaalhaalaaaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "la ilaha illa Allah wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ala kulli shayin qadir",
+      "translation": "There is no god but Allah alone, without partner. To Him belongs the dominion and all praise, and He is capable of all things."
     },
     {
       "id": 3,
       "category_id": "daily_general",
       "text": "الْحَمْدُ لِلَّهِ",
-      "repeat": 100,
-      "virtue": "مسلم",
-      "transliteration": "aalhmdllh",
-      "translation": "Dhikr of Allah (recitation)"
+      "repeat": 1,
+      "virtue": "ذكر عام",
+      "transliteration": "al-hamdu lillah",
+      "translation": "All praise is due to Allah."
     },
     {
       "id": 4,
       "category_id": "daily_general",
       "text": "اللَّهُ أَكْبَرُ",
-      "repeat": 100,
-      "virtue": "مسلم",
-      "transliteration": "aallhaakbr",
-      "translation": "Dhikr of Allah (recitation)"
+      "repeat": 1,
+      "virtue": "ذكر عام",
+      "transliteration": "Allahu akbar",
+      "translation": "Allah is the Greatest."
     },
     {
       "id": 5,
       "category_id": "daily_general",
-      "text": "أَسْتَغْفِرُ اللَّهَ",
+      "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
       "repeat": 100,
-      "virtue": "الرزق",
-      "transliteration": "aastghfraallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "astaghfirullaha wa atubu ilayh",
+      "translation": "I seek forgiveness from Allah and repent to Him."
     },
     {
       "id": 6,
-      "category_id": "rain",
-      "text": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+      "category_id": "daily_general",
+      "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ، وَاللَّهُ أَكْبَرُ",
       "repeat": 1,
-      "virtue": "البخاري",
-      "transliteration": "aallhmsybaanaafaaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wal-hamdu lillah, wallahu akbar",
+      "translation": "Glory be to Allah, all praise is due to Allah, and Allah is the Greatest."
     },
     {
       "id": 7,
-      "category_id": "rain",
-      "text": "اللَّهُمَّ اجْعَلْهُ نَافِعًا لِلْعِبَادِ",
+      "category_id": "daily_general",
+      "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "repeat": 1,
-      "virtue": "النفع",
-      "transliteration": "aallhmaajalhnaafaaallabaad",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "la hawla wa la quwwata illa billah",
+      "translation": "There is no power and no strength except through Allah."
     },
     {
       "id": 8,
-      "category_id": "adhan",
-      "text": "أَصْلَيْتُ عَلَى مَنْ صَلَّى",
+      "category_id": "daily_general",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
       "repeat": 1,
-      "virtue": "الترمذي",
-      "transliteration": "aaslytalymnsly",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wa bihamdih, subhanallahi al-azim",
+      "translation": "Glory and praise be to Allah; glory be to Allah, the Magnificent."
     },
     {
       "id": 9,
-      "category_id": "adhan",
-      "text": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ",
+      "category_id": "rain",
+      "text": "اللَّهُمَّ صَيِّبًا نَافِعًا",
       "repeat": 1,
-      "virtue": "الوسيلة",
-      "transliteration": "aallhmrbhdhhaaldawhaaltaamh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه البخاري",
+      "transliteration": "allahumma sayyiban nafian",
+      "translation": "O Allah, make it beneficial rain."
     },
     {
       "id": 10,
-      "category_id": "adhan",
-      "text": "صَلَّى اللَّهُ عَلَى مُحَمَّدٍ",
+      "category_id": "rain",
+      "text": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
       "repeat": 1,
-      "virtue": "بعد الأذان",
-      "transliteration": "slyaallhalymhmd",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "متفق عليه",
+      "transliteration": "mutirna bi-fadlillahi wa rahmatih",
+      "translation": "We have been given rain by the grace and mercy of Allah."
     },
     {
       "id": 11,
-      "category_id": "moon",
-      "text": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ لَا إِلَهَ إِلَّا اللَّهُ",
+      "category_id": "rain",
+      "text": "اللَّهُمَّ صَيِّبًا هَنِيئًا",
       "repeat": 1,
-      "virtue": "البخاري",
-      "transliteration": "aallhaakbraallhaakbrlaaaalhaalaaaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "دعاء عند المطر",
+      "transliteration": "allahumma sayyiban hanian",
+      "translation": "O Allah, make it pleasant and beneficial rain."
     },
     {
       "id": 12,
-      "category_id": "clothes",
-      "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا",
+      "category_id": "adhan",
+      "text": "تَقُولُ مِثْلَ مَا يَقُولُ الْمُؤَذِّنُ، إِلَّا فِي الْحَيَّعَلَتَيْنِ، فَتَقُولُ: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "repeat": 1,
-      "virtue": "أبو داود",
-      "transliteration": "aalhmdllhaaldhyksaanyhdhaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه مسلم",
+      "transliteration": "taqulu mithla ma yaqulul-muadhdhin, illa fil-hayy alatayn, fataqulu la hawla wa la quwwata illa billah",
+      "translation": "Repeat what the caller to prayer says, except when he says Come to prayer and Come to success; then say: There is no power and no strength except through Allah."
     },
     {
       "id": 13,
-      "category_id": "clothes",
-      "text": "بِسْمِ اللَّهِ",
+      "category_id": "adhan",
+      "text": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
       "repeat": 1,
-      "virtue": "الترمذي",
-      "transliteration": "bsmaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه البخاري",
+      "transliteration": "allahumma rabba hadhihid-dawatit-tammah, was-salatil-qa-imah, ati muhammadan al-wasilata wal-fadilah, wabathhu maqaman mahmudan alladhi waadtah",
+      "translation": "O Allah, Lord of this perfect call and established prayer, grant Muhammad the means and virtue, and raise him to the Praiseworthy Station which You have promised him."
     },
     {
       "id": 14,
-      "category_id": "clothes",
-      "text": "الْحَمْدُ لِلَّهِ كَثِيرًا طَيِّبًا",
+      "category_id": "adhan",
+      "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
       "repeat": 1,
-      "virtue": "ابن ماجه",
-      "transliteration": "aalhmdllhkthyraatybaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه مسلم",
+      "transliteration": "allahumma salli ala muhammadin wa ala ali muhammad",
+      "translation": "O Allah, send Your blessings upon Muhammad and upon the family of Muhammad."
     },
     {
       "id": 15,
-      "category_id": "daily_general",
-      "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
-      "repeat": 100,
-      "virtue": "البخاري",
-      "transliteration": "laahwlwlaaqwhaalaabaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "category_id": "moon",
+      "text": "اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْيُمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ، رَبِّي وَرَبُّكَ اللَّهُ",
+      "repeat": 1,
+      "virtue": "رواه الترمذي",
+      "transliteration": "allahumma ahillahu alayna bil-yumni wal-iman, was-salamati wal-islam, rabbi wa rabbuk Allah",
+      "translation": "O Allah, let this moon appear over us with blessing and faith, safety and Islam. My Lord and your Lord is Allah."
     },
     {
       "id": 16,
-      "category_id": "rain",
-      "text": "اللَّهُمَّ اجْعَلْهُ عَلَيْنَا نَافِعًا",
+      "category_id": "moon",
+      "text": "اللَّهُ أَكْبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ",
       "repeat": 1,
-      "virtue": "النفع",
-      "transliteration": "aallhmaajalhalynaanaafaaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "دعاء رؤية الهلال",
+      "transliteration": "Allahu akbar, allahumma ahillahu alayna bil-amni wal-iman, was-salamati wal-islam",
+      "translation": "Allah is the Greatest. O Allah, let this moon appear over us with security and faith, safety and Islam."
+    },
+    {
+      "id": 17,
+      "category_id": "clothes",
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "al-hamdu lillahil-ladhi kasani hadhath-thawba wa razaqanihi min ghayri hawlin minni wa la quwwah",
+      "translation": "All praise is due to Allah who clothed me with this garment and provided it for me without any power or strength from me."
+    },
+    {
+      "id": 18,
+      "category_id": "clothes",
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي مَا أُوَارِي بِهِ عَوْرَتِي وَأَتَجَمَّلُ بِهِ فِي حَيَاتِي",
+      "repeat": 1,
+      "virtue": "دعاء عند لبس الثوب",
+      "transliteration": "al-hamdu lillahil-ladhi kasani ma uwari bihi awrati wa atajammalu bihi fi hayati",
+      "translation": "All praise is due to Allah who clothed me with what covers my private parts and with which I beautify myself in my life."
+    },
+    {
+      "id": 19,
+      "category_id": "clothes",
+      "text": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "allahumma lakal-hamd, anta kasawtanih, asaluka khayrahu wa khayra ma suniya lah, wa audhu bika min sharrihi wa sharri ma suniya lah",
+      "translation": "O Allah, all praise is for You. You have clothed me with it. I ask You for its goodness and the goodness for which it was made, and I seek refuge in You from its evil and the evil for which it was made."
     }
   ]
 }

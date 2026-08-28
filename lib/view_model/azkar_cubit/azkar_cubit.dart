@@ -1,5 +1,4 @@
 import 'package:bloc/bloc.dart';
-import 'package:dart_either/dart_either.dart';
 import 'package:equatable/equatable.dart';
 import 'package:zekr/data/repositories/azkar_repo/azkar_abstarct_repo.dart';
 import 'package:zekr/data/repositories/azkar_repo/azkar_implementaion_repo.dart';
@@ -16,8 +15,12 @@ class AzkarCubit extends Cubit<AzkarState> {
     emit(AzkarLoading());
     final result = await azkar.loadAzkar(fileName);
     result.fold(
-      ifLeft: (error) { emit(AzkarFailure(error)); },
-      ifRight: (azkar) { emit(AzkarSuccess(azkar)); },
+      ifLeft: (error) {
+        emit(AzkarFailure(error));
+      },
+      ifRight: (azkar) {
+        emit(AzkarSuccess(azkar));
+      },
     );
   }
 }

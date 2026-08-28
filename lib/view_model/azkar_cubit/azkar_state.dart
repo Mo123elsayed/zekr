@@ -10,7 +10,7 @@ sealed class AzkarState extends Equatable {
 final class AzkarInitial extends AzkarState {}
 final class AzkarLoading extends AzkarState {}
 final class AzkarSuccess extends AzkarState {
-  final List<AzkarModel> azkar;
+  final AzkarModel azkar;
   const AzkarSuccess(this.azkar);
 }
 final class AzkarFailure extends AzkarState {

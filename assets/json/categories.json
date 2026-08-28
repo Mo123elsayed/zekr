@@ -51,5 +51,30 @@
     "id": "quran",
     "title": "القرآن الكريم",
     "filePath": "assets/json/azkar-ar/quran.json"
+  },
+  {
+  "id": "wakeup",
+  "title": "أذكار الاستيقاظ",
+  "filePath": "assets/json/azkar-ar/sleep.json"
+},
+{
+    "id": "daily_general",
+    "title": "أذكار عامة يومية"
+  },
+  {
+    "id": "rain",
+    "title": "عند المطر"
+  },
+  {
+    "id": "adhan",
+    "title": "عند سماع الأذان"
+  },
+  {
+    "id": "moon",
+    "title": "عند رؤية الهلال"
+  },
+  {
+    "id": "clothes",
+    "title": "عند لبس الملابس"
   }
 ]

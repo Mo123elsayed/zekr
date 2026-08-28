@@ -9,281 +9,218 @@
     {
       "id": 1,
       "category_id": "evening",
-      "text": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ وَالْحَمْدُ لِلَّهِ",
+      "text": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
       "repeat": 1,
-      "virtue": "رواه البخاري",
-      "transliteration": "amsayna wa amsa al-mulku li allah wa al-hamdu li allah",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه مسلم",
+      "transliteration": "amsayna wa amsa al-mulku lillah, wal-hamdu lillah, la ilaha illa Allah wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ala kulli shay'in qadir, rabbi as'aluka khayra ma fi hadhihil-laylah wa khayra ma ba'daha, wa a'udhu bika min sharri ma fi hadhihil-laylah wa sharri ma ba'daha, rabbi a'udhu bika minal-kasali wa su'il-kibar, rabbi a'udhu bika min adhabi fin-nari wa adhabi fil-qabr",
+      "translation": "We have entered the evening and the dominion belongs to Allah. All praise belongs to Allah. There is no god but Allah alone, without partner. To Him belongs the dominion and all praise, and He is capable of all things. My Lord, I ask You for the good of this night and the good that follows it, and I seek refuge in You from the evil of this night and the evil that follows it. My Lord, I seek refuge in You from laziness, the weakness of old age, the punishment of the Fire, and the punishment of the grave."
     },
     {
       "id": 2,
       "category_id": "evening",
-      "text": "اللَّهُمَّ بِكَ أَمْسَيْنَا وَبِكَ أَصْبَحْنَا",
+      "text": "اللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ الْمَصِيرُ",
       "repeat": 1,
-      "virtue": "رواه مسلم",
-      "transliteration": "allahumma bika amsayna wa bika asbahna",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "allahumma bika amsayna, wa bika asbahna, wa bika nahya, wa bika namut, wa ilaykal-masir",
+      "translation": "O Allah, by You we enter the evening, by You we enter the morning, by You we live, by You we die, and to You is the return."
     },
     {
       "id": 3,
       "category_id": "evening",
-      "text": "اللَّهُمَّ مَا أَمْسَى بِي مِنْ نِعْمَةٍ فَمِنْكَ",
+      "text": "اللَّهُمَّ مَا أَمْسَى بِي مِنْ نِعْمَةٍ أَوْ بِأَحَدٍ مِنْ خَلْقِكَ، فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ",
       "repeat": 1,
-      "virtue": "رواه الترمذي",
-      "transliteration": "allahumma ma amsa bi min ni'matin faminka",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود",
+      "transliteration": "allahumma ma amsa bi min ni'matin aw bi ahadin min khalqik, faminka wahdaka la sharika lak, falakal-hamdu wa lakash-shukr",
+      "translation": "O Allah, whatever blessing has come to me or to any of Your creation this evening is from You alone, without partner. So to You belongs all praise and all thanks."
     },
     {
       "id": 4,
       "category_id": "evening",
-      "text": "اللَّهُمَّ عَافِنِي فِي بَدَنِي",
+      "text": "اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لَا إِلَهَ إِلَّا أَنْتَ، اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَ",
       "repeat": 3,
-      "virtue": "رواه مسلم",
-      "transliteration": "allahumma 'afini fi badani",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود",
+      "transliteration": "allahumma afini fi badani, allahumma afini fi sam'i, allahumma afini fi basari, la ilaha illa ant, allahumma inni a'udhu bika minal-kufri wal-faqr, wa a'udhu bika min adhabi al-qabr, la ilaha illa ant",
+      "translation": "O Allah, grant me well-being in my body. O Allah, grant me well-being in my hearing. O Allah, grant me well-being in my sight. There is no god but You. O Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is no god but You."
     },
     {
       "id": 5,
       "category_id": "evening",
-      "text": "اللَّهُمَّ إِنِّي أَمْسَيْتُ أُشْهِدُكَ",
+      "text": "اللَّهُمَّ إِنِّي أَمْسَيْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلَّا أَنْتَ، وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ",
       "repeat": 4,
       "virtue": "رواه أبو داود",
-      "transliteration": "allahumma inni amsaytu ushhiduka",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma inni amsaytu ushhiduka, wa ushhidu hamalata arshik, wa mala'ikatak, wa jami'a khalqik, annaka anta Allahu la ilaha illa ant, wahdaka la sharika lak, wa anna muhammadan abduka wa rasuluk",
+      "translation": "O Allah, this evening I call upon You, the bearers of Your Throne, Your angels, and all Your creation to bear witness that You are Allah. There is no god but You, alone without partner, and that Muhammad is Your servant and Messenger."
     },
     {
       "id": 6,
       "category_id": "evening",
-      "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+      "text": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ، لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
       "repeat": 1,
-      "virtue": "آية الكرسي",
-      "transliteration": "allah la ilaha illa huwa al-hayyu al-qayyum",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "آية الكرسي - البقرة: 255",
+      "transliteration": "allahu la ilaha illa huwa al-hayyu al-qayyum, la ta'khudhuhu sinatun wa la nawm, lahu ma fis-samawati wa ma fil-ard, man dhal-ladhi yashfa'u indahu illa bi-idhnih, ya'lamu ma bayna aydihim wa ma khalfahum, wa la yuhituna bi shay'in min ilmihi illa bima sha', wasi'a kursiyyuhus-samawati wal-ard, wa la ya'uduhu hifzuhuma, wa huwal-aliyyul-azim",
+      "translation": "Allah—there is no god but Him, the Ever-Living, the Sustainer of all. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is before them and what is behind them, and they encompass nothing of His knowledge except what He wills. His Throne encompasses the heavens and the earth, and preserving them does not tire Him. He is the Most High, the Most Great."
     },
     {
       "id": 7,
       "category_id": "evening",
-      "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "text": "قُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
       "repeat": 3,
-      "virtue": "الإخلاص",
-      "transliteration": "qul huwa allahu ahad",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "سورة الإخلاص",
+      "transliteration": "qul huwa Allahu ahad, Allahus-samad, lam yalid wa lam yulad, wa lam yakun lahu kufuwan ahad",
+      "translation": "Say: He is Allah, One. Allah, the Self-Sufficient. He neither begets nor is born, nor is there anyone comparable to Him."
     },
     {
       "id": 8,
       "category_id": "evening",
-      "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِنْ شَرِّ مَا خَلَقَ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
       "repeat": 3,
-      "virtue": "الفلق",
-      "transliteration": "qul a'udhu bi rabbi al-falaq",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "سورة الفلق",
+      "transliteration": "qul a'udhu bi rabbil-falaq, min sharri ma khalaq, wa min sharri ghasiqin idha waqab, wa min sharrin-naffathati fil-uqad, wa min sharri hasidin idha hasad",
+      "translation": "Say: I seek refuge in the Lord of daybreak, from the evil of what He has created, from the evil of darkness when it settles, from the evil of those who blow on knots, and from the evil of an envier when he envies."
     },
     {
       "id": 9,
       "category_id": "evening",
-      "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَهِ النَّاسِ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ",
       "repeat": 3,
-      "virtue": "الناس",
-      "transliteration": "qul a'udhu bi rabbi an-nas",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "سورة الناس",
+      "transliteration": "qul a'udhu bi rabbin-nas, malikin-nas, ilahin-nas, min sharril-waswasil-khannas, alladhi yuwaswisu fi sudurin-nas, minal-jinnati wan-nas",
+      "translation": "Say: I seek refuge in the Lord of mankind, the King of mankind, the God of mankind, from the evil of the retreating whisperer who whispers in the hearts of mankind, from among jinn and mankind."
     },
     {
       "id": 10,
       "category_id": "evening",
-      "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ",
+      "text": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ، وَهُوَ السَّمِيعُ الْعَلِيمُ",
       "repeat": 3,
-      "virtue": "رواه أبو داود",
-      "transliteration": "bismillah alladhi la yadhurru ma'a ismihi shay'un",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "bismillahil-ladhi la yadurru ma'a ismihi shay'un fil-ardi wa la fis-sama', wa huwas-sami'ul-alim",
+      "translation": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm, and He is the All-Hearing, All-Knowing."
     },
     {
       "id": 11,
       "category_id": "evening",
-      "text": "اللَّهُمَّ عَالِمَ الْغَيْبِ وَالشَّهَادَةِ",
+      "text": "اللَّهُمَّ فَاطِرَ السَّمَاوَاتِ وَالْأَرْضِ، عَالِمَ الْغَيْبِ وَالشَّهَادَةِ، رَبَّ كُلِّ شَيْءٍ وَمَلِيكَهُ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي، وَمِنْ شَرِّ الشَّيْطَانِ وَشِرْكِهِ",
       "repeat": 1,
-      "virtue": "رواه البخاري",
-      "transliteration": "allahumma 'alimu al-ghaybi wa ash-shahadah",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "allahumma fatiras-samawati wal-ard, alimal-ghaybi wash-shahadah, rabba kulli shay'in wa malikah, ash-hadu an la ilaha illa ant, a'udhu bika min sharri nafsi, wa min sharrish-shaytani wa shirkih",
+      "translation": "O Allah, Creator of the heavens and the earth, Knower of the unseen and the seen, Lord and Sovereign of everything, I testify that there is no god but You. I seek refuge in You from the evil of my own self and from the evil of Satan and his incitement to associate partners with You."
     },
     {
       "id": 12,
       "category_id": "evening",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا",
-      "repeat": 3,
-      "virtue": "رواه ابن ماجه",
-      "transliteration": "allahumma inni as'aluka 'ilman nafi'an",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "اللَّهُمَّ أَنْتَ رَبِّي، لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي، فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "repeat": 1,
+      "virtue": "سيد الاستغفار - رواه البخاري",
+      "transliteration": "allahumma anta rabbi, la ilaha illa ant, khalaqtani wa ana abduk, wa ana ala ahdika wa wadika mastata't, a'udhu bika min sharri ma sana't, abu'u laka bini'matika alayya, wa abu'u laka bi dhanbi, faghfir li, fa innahu la yaghfirudh-dhunuba illa ant",
+      "translation": "O Allah, You are my Lord. There is no god but You. You created me and I am Your servant. I abide by Your covenant and promise as best as I can. I seek refuge in You from the evil of what I have done. I acknowledge Your blessings upon me, and I acknowledge my sin. So forgive me, for none forgives sins except You."
     },
     {
       "id": 13,
       "category_id": "evening",
-      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ",
+      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
       "repeat": 7,
-      "virtue": "رواه البخاري",
-      "transliteration": "hasbiyallahu la ilaha illa huwa",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "ورد عن أبي الدرداء رضي الله عنه - أخرجه أبو داود",
+      "transliteration": "hasbiyallahu la ilaha illa huwa, alayhi tawakkaltu, wa huwa rabbul-arshil-azim",
+      "translation": "Allah is sufficient for me. There is no god but Him. Upon Him I rely, and He is the Lord of the Mighty Throne."
     },
     {
       "id": 14,
       "category_id": "evening",
-      "text": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ",
+      "text": "آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ، كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ، لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ، وَقَالُوا سَمِعْنَا وَأَطَعْنَا، غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ. لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا، لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ، رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا، رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا، رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ، وَاعْفُ عَنَّا، وَاغْفِرْ لَنَا، وَارْحَمْنَا، أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
       "repeat": 1,
-      "virtue": "آخر البقرة",
-      "transliteration": "amanu ar-rasulu bima unzila ilayh",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "آخر آيتين من سورة البقرة",
+      "transliteration": "amanar-rasulu bima unzila ilayhi min rabbihi wal-mu'minun, kullun amana billahi wa mala'ikatihi wa kutubihi wa rusulih, la nufarriqu bayna ahadin min rusulih, wa qalu sami'na wa ata'na, ghufranaka rabbana wa ilaykal-masir. la yukallifullahu nafsan illa wus'aha, laha ma kasabat wa alayha maktasabat, rabbana la tu'akhidhna in nasina aw akhta'na, rabbana wa la tahmil alayna isran kama hamaltahu alal-ladhina min qablina, rabbana wa la tuhammilna ma la taqata lana bih, wa'fu anna, waghfir lana, warhamna, anta mawlana fansurna alal-qawmil-kafirin",
+      "translation": "The Messenger has believed in what was revealed to him from his Lord, and so have the believers. All have believed in Allah, His angels, His Books, and His messengers. We make no distinction between any of His messengers. They say: We hear and we obey. We seek Your forgiveness, our Lord, and to You is the return. Allah does not burden a soul beyond its capacity. It will have the reward of what it earns and bear the consequence of what it commits. Our Lord, do not hold us accountable if we forget or make a mistake. Our Lord, do not place upon us a burden as You placed upon those before us. Our Lord, do not burden us with what we have no strength to bear. Pardon us, forgive us, and have mercy upon us. You are our Protector, so grant us victory over the disbelieving people."
     },
     {
       "id": 15,
       "category_id": "evening",
-      "text": "اللَّهُمَّ قُهْ جِيبِي وَجَانِبِي مِنَ النَّارِ",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالْآخِرَةِ، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي دِينِي وَدُنْيَايَ وَأَهْلِي وَمَالِي، اللَّهُمَّ اسْتُرْ عَوْرَاتِي، وَآمِنْ رَوْعَاتِي، وَاحْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي، وَعَنْ يَمِينِي وَعَنْ شِمَالِي، وَمِنْ فَوْقِي، وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي",
       "repeat": 1,
-      "virtue": "حماية",
-      "transliteration": "allahumma qujni bi jibbiy wa jaanibiy min an-nar",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه أبو داود",
+      "transliteration": "allahumma inni as'alukal-afwa wal-afiyata fid-dunya wal-akhirah, allahumma inni as'alukal-afwa wal-afiyata fi dini wa dunyaya wa ahli wa mali, allahummastur awrati, wa amin rawati, wahfazni min bayni yadayya wa min khalfi, wa an yamini wa an shimali, wa min fawqi, wa a'udhu bi azamatika an ughtala min tahti",
+      "translation": "O Allah, I ask You for pardon and well-being in this world and the Hereafter. O Allah, I ask You for pardon and well-being in my religion, my worldly affairs, my family, and my wealth. O Allah, conceal my faults and calm my fears. Protect me from before me, from behind me, from my right, from my left, and from above me. I seek refuge in Your greatness from being unexpectedly harmed from beneath me."
     },
     {
       "id": 16,
       "category_id": "evening",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ",
-      "repeat": 1,
-      "virtue": "عافية",
-      "transliteration": "allahumma inni as'aluka al-'afwa",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَ",
+      "repeat": 3,
+      "virtue": "رواه أبو داود",
+      "transliteration": "allahumma inni a'udhu bika minal-kufri wal-faqr, wa a'udhu bika min adhabi al-qabr, la ilaha illa ant",
+      "translation": "O Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is no god but You."
     },
     {
       "id": 17,
       "category_id": "evening",
-      "text": "اللَّهُمَّ بَارِكْ لِي فِي رِزْقِي",
-      "repeat": 1,
-      "virtue": "الرزق",
-      "transliteration": "allahumma barik li fi rizqi",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+      "repeat": 3,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "raditu billahi rabban, wa bil-islami dinan, wa bi muhammadin sallallahu alayhi wa sallama nabiyyan",
+      "translation": "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad, peace and blessings be upon him, as my Prophet."
     },
     {
       "id": 18,
       "category_id": "evening",
-      "text": "اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ",
+      "text": "يَا حَيُّ يَا قَيُّومُ، بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ، وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ",
       "repeat": 1,
-      "virtue": "حفظ",
-      "transliteration": "allahumma ahfazni min bayni yadayya",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه الحاكم",
+      "transliteration": "ya hayyu ya qayyum, bi rahmatika astaghith, aslih li shani kullah, wa la takilni ila nafsi tarfata ayn",
+      "translation": "O Ever-Living, O Sustainer, by Your mercy I seek help. Set right all of my affairs, and do not leave me to myself even for the blink of an eye."
     },
     {
       "id": 19,
       "category_id": "evening",
-      "text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ",
-      "repeat": 1,
-      "virtue": "إغاثة",
-      "transliteration": "ya hayyu ya qayyum birahmatika",
-      "translation": "O Ever-Living, O Sustainer, I seek help by Your mercy; set all my affairs in order."
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeat": 100,
+      "virtue": "رواه البخاري ومسلم",
+      "transliteration": "subhana Allah wa bi hamdih",
+      "translation": "Glory be to Allah and praise be to Him."
     },
     {
       "id": 20,
       "category_id": "evening",
-      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
       "repeat": 3,
-      "virtue": "الميزان",
-      "transliteration": "subhanallahi wa bi hamdih 'adada khalqih",
-      "translation": "Glorified is Allah, and praised is Him, by the number of His creation."
+      "virtue": "رواه مسلم",
+      "transliteration": "a'udhu bi kalimatillahit-tammati min sharri ma khalaq",
+      "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created."
     },
     {
       "id": 21,
       "category_id": "evening",
-      "text": "اللَّهُمَّ اغْفِرْ لِي ذَنْبِي",
-      "repeat": 1,
-      "virtue": "مغفرة",
-      "transliteration": "allahumma ighfir li dhanbi",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى نَبِيِّنَا مُحَمَّدٍ",
+      "repeat": 10,
+      "virtue": "الصلاة على النبي ﷺ",
+      "transliteration": "allahumma salli wa sallim wa barik ala nabiyyina muhammad",
+      "translation": "O Allah, send Your blessings, peace, and grace upon our Prophet Muhammad."
     },
     {
       "id": 22,
       "category_id": "evening",
-      "text": "اللَّهُمَّ اجْعَلْنِي مِنَ التَّوَّابِينَ",
-      "repeat": 1,
-      "virtue": "التوبة",
-      "transliteration": "allahumma ja'alni min at-tawwabin",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "repeat": 100,
+      "virtue": "رواه البخاري ومسلم",
+      "transliteration": "la ilaha illa Allah wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ala kulli shay'in qadir",
+      "translation": "There is no god but Allah alone, without partner. To Him belongs the dominion and all praise, and He is capable of all things."
     },
     {
       "id": 23,
       "category_id": "evening",
-      "text": "رَبِّ أَعُوذُ بِكَ مِنْ هَمَازَةِ",
-      "repeat": 3,
-      "virtue": "حماية",
-      "transliteration": "rabbi a'udhu bika min hamazat",
-      "translation": "Dhikr of Allah (recitation)"
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+      "repeat": 1,
+      "virtue": "رواه ابن ماجه",
+      "transliteration": "allahumma inni as'aluka ilman nafi'an, wa rizqan tayyiban, wa amalan mutaqabbalan",
+      "translation": "O Allah, I ask You for beneficial knowledge, good and lawful provision, and accepted deeds."
     },
     {
       "id": 24,
       "category_id": "evening",
-      "text": "اللَّهُمَّ احْفَظْ أَهْلِي",
-      "repeat": 1,
-      "virtue": "الأهل",
-      "transliteration": "allahumma ahfaz ahli",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 25,
-      "category_id": "evening",
-      "text": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ",
-      "repeat": 1,
-      "virtue": "الغنى",
-      "transliteration": "allahumma akfini bi halalika",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 26,
-      "category_id": "evening",
-      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ",
-      "repeat": 3,
-      "virtue": "حماية",
-      "transliteration": "a'udhu bi kalimat allah",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 27,
-      "category_id": "evening",
-      "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ",
-      "repeat": 3,
-      "virtue": "حماية",
-      "transliteration": "bismillah alladhi la yadhurr",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 28,
-      "category_id": "evening",
-      "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ",
-      "repeat": 10,
-      "virtue": "الصلاة",
-      "transliteration": "allahumma salli 'ala muhammad",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 29,
-      "category_id": "evening",
-      "text": "رَبَّنَا آتِنَا فِي الدُّنْيَا",
-      "repeat": 7,
-      "virtue": "الدعاء",
-      "transliteration": "rabbana atina fi ad-dunya",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 30,
-      "category_id": "evening",
-      "text": "سُبْحَانَ اللَّهِ",
+      "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
       "repeat": 100,
-      "virtue": "يومي",
-      "transliteration": "subhanallah",
-      "translation": "Dhikr of Allah (recitation)"
-    },
-    {
-      "id": 31,
-      "category_id": "evening",
-      "text": "الْحَمْدُ لِلَّهِ",
-      "repeat": 100,
-      "virtue": "يومي",
-      "transliteration": "al-hamdu lillah",
-      "translation": "Dhikr of Allah (recitation)"
+      "virtue": "رواه البخاري ومسلم",
+      "transliteration": "astaghfirullaha wa atubu ilayh",
+      "translation": "I seek forgiveness from Allah and repent to Him."
     }
   ]
 }

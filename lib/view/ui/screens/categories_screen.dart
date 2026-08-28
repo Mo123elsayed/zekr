@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:zekr/core/helpers/extensions.dart';
+import 'package:zekr/core/routing/routes.dart';
 import 'package:zekr/view_model/categories_cubit/categories_cubit.dart';
 
 class CategoriesScreen extends StatelessWidget {
@@ -55,12 +56,7 @@ class CategoriesScreen extends StatelessWidget {
                 itemBuilder: (context, index) => Container(
                   margin: const EdgeInsets.all(10),
                   child: ListTile(
-                    trailing: IconButton(
-                      icon: const Icon(Icons.arrow_forward_ios_rounded),
-                      onPressed: () {
-                        // Handle arrow forward button press
-                      },
-                    ),
+                    trailing: const Icon(Icons.arrow_forward_ios_rounded),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -75,7 +71,10 @@ class CategoriesScreen extends StatelessWidget {
                       ),
                     ),
                     onTap: () {
-                      // Handle category tap
+                      context.pushNamed(
+                        Routes.details,
+                        arguments: state.categories[index].id,
+                      );
                     },
                   ),
                 ),

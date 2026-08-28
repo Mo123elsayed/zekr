@@ -12,8 +12,8 @@
       "text": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
       "repeat": 1,
       "virtue": "مسلم",
-      "transliteration": "bsmaallhaalrhmnaalrhym",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "bismillah ar-rahman ar-rahim",
+      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful."
     },
     {
       "id": 2,
@@ -21,8 +21,8 @@
       "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
       "repeat": 7,
       "virtue": "الفاتحة",
-      "transliteration": "aalhmdllhrbaalaaalmyn",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "al-hamdu lillahi rabbi al-'alamin",
+      "translation": "All praise is due to Allah, Lord of the worlds."
     },
     {
       "id": 3,
@@ -30,8 +30,8 @@
       "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
       "repeat": 3,
       "virtue": "آية الكرسي",
-      "transliteration": "aallhlaaaalhaalaahwaalhyaalqywm",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahu la ilaha illa huwa al-hayyu al-qayyum",
+      "translation": "Allah—there is no deity except Him, the Ever-Living, the Sustainer of all."
     },
     {
       "id": 4,
@@ -39,8 +39,8 @@
       "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
       "repeat": 3,
       "virtue": "الإخلاص",
-      "transliteration": "qlhwaallhaahd",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul huwa allahu ahad",
+      "translation": "Say: He is Allah, the One."
     },
     {
       "id": 5,
@@ -48,8 +48,8 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
       "repeat": 3,
       "virtue": "الفلق",
-      "transliteration": "qlaaawdhbrbaalflq",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul a'udhu bi rabbi al-falaq",
+      "translation": "Say: I seek refuge in the Lord of the daybreak."
     },
     {
       "id": 6,
@@ -57,8 +57,8 @@
       "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
       "repeat": 3,
       "virtue": "الناس",
-      "transliteration": "qlaaawdhbrbaalnaas",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "qul a'udhu bi rabbi an-nas",
+      "translation": "Say: I seek refuge in the Lord of mankind."
     },
     {
       "id": 7,
@@ -66,8 +66,8 @@
       "text": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ",
       "repeat": 3,
       "virtue": "آخر البقرة",
-      "transliteration": "aamnaalrswlbmaaaanzlaalyh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "amana ar-rasulu bima unzila ilayhi",
+      "translation": "The Messenger has believed in what was revealed to him from his Lord."
     },
     {
       "id": 8,
@@ -75,8 +75,8 @@
       "text": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
       "repeat": 3,
       "virtue": "العياذ",
-      "transliteration": "aaawdhbaallhmnaalshytaanaalrjym",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "a'udhu billahi min ash-shaytan ir-rajim",
+      "translation": "I seek refuge in Allah from the accursed Satan."
     },
     {
       "id": 9,
@@ -84,8 +84,8 @@
       "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ",
       "repeat": 7,
       "virtue": "الكرب",
-      "transliteration": "hsbyaallhlaaaalhaalaahw",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "hasbiyallahu la ilaha illa huwa",
+      "translation": "Allah is sufficient for me; there is no deity except Him."
     },
     {
       "id": 10,
@@ -93,8 +93,8 @@
       "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "repeat": 100,
       "virtue": "كنز الجنة",
-      "transliteration": "laahwlwlaaqwhaalaabaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "la hawla wa la quwwata illa billah",
+      "translation": "There is no power and no strength except through Allah."
     },
     {
       "id": 11,
@@ -102,8 +102,8 @@
       "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ",
       "repeat": 3,
       "virtue": "أبو داود",
-      "transliteration": "bsmaallhaaldhylaaydrmaaasmhshy",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "bismillah alladhi la yadurru ma'a ismihi shay'un",
+      "translation": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm."
     },
     {
       "id": 12,
@@ -111,8 +111,8 @@
       "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ",
       "repeat": 3,
       "virtue": "مسلم",
-      "transliteration": "aaawdhbklmaataallhaaltaamaat",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "a'udhu bi kalimatillahi at-tammati",
+      "translation": "I seek refuge in the perfect words of Allah."
     },
     {
       "id": 13,
@@ -120,8 +120,8 @@
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ",
       "repeat": 3,
       "virtue": "مسلم",
-      "transliteration": "sbhaanaallhwbhmdhaddkhlqh",
-      "translation": "Glorified is Allah, and praised is Him, by the number of His creation."
+      "transliteration": "subhanallahi wa bihamdihi 'adada khalqihi",
+      "translation": "Glory and praise be to Allah, as numerous as His creation."
     },
     {
       "id": 14,
@@ -129,8 +129,8 @@
       "text": "اللَّهُمَّ رَبَّ النَّاسِ مُذْهِبَ الْبَأْسِ اشْفِ",
       "repeat": 7,
       "virtue": "شفاء",
-      "transliteration": "aallhmrbaalnaasmdhhbaalbaasaashf",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma rabban-nas mudhhib al-ba's ishfi",
+      "translation": "O Allah, Lord of mankind, remove the suffering and grant healing."
     },
     {
       "id": 15,
@@ -138,8 +138,8 @@
       "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
       "repeat": 10,
       "virtue": "الترمذي",
-      "transliteration": "aallhmslalymhmdwaalmhmd",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma salli 'ala muhammadin wa ali muhammad",
+      "translation": "O Allah, send Your blessings upon Muhammad and the family of Muhammad."
     },
     {
       "id": 16,
@@ -147,8 +147,8 @@
       "text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
       "repeat": 3,
       "virtue": "النسائي",
-      "transliteration": "yaahyyaaqywmbrhmtkaastghyth",
-      "translation": "O Ever-Living, O Sustainer, I seek help by Your mercy; set all my affairs in order."
+      "transliteration": "ya hayyu ya qayyum bi rahmatika astaghith",
+      "translation": "O Ever-Living, O Sustainer, I seek help through Your mercy."
     },
     {
       "id": 17,
@@ -156,8 +156,8 @@
       "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ",
       "repeat": 33,
       "virtue": "مسلم",
-      "transliteration": "sbhaanaallhwaalhmdllhwlaaaalhaalaaaallh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "subhanallah wal-hamdu lillah wa la ilaha illa allah",
+      "translation": "Glory be to Allah, all praise is due to Allah, and there is no deity except Allah."
     },
     {
       "id": 18,
@@ -165,8 +165,8 @@
       "text": "اللَّهُمَّ أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ",
       "repeat": 7,
       "virtue": "أبو داود",
-      "transliteration": "aallhmaadhhbaalbaasrbaalnaas",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma adhhibil-ba's rabban-nas",
+      "translation": "O Allah, remove the suffering, Lord of mankind."
     },
     {
       "id": 19,
@@ -174,8 +174,8 @@
       "text": "رَبِّيَ أَعُوذُ بِكَ مِنْ هَمَازَةِ مَشَّاءٍ",
       "repeat": 3,
       "virtue": "المعارج",
-      "transliteration": "rbyaaawdhbkmnhmaazhmshaa",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "rabbi a'udhu bika min hamazati mashsha",
+      "translation": "My Lord, I seek refuge in You from the whisperings and incitements of devils."
     },
     {
       "id": 20,
@@ -183,8 +183,8 @@
       "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ",
       "repeat": 3,
       "virtue": "الترمذي",
-      "transliteration": "aallhmaanyaasaalkaalaaafyh",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "allahumma inni as'aluka al-'afiyah",
+      "translation": "O Allah, I ask You for well-being and protection."
     },
     {
       "id": 21,
@@ -192,8 +192,8 @@
       "text": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
       "repeat": 7,
       "virtue": "آل عمران",
-      "transliteration": "hsbnaaaallhwnamaalwkyl",
-      "translation": "Dhikr of Allah (recitation)"
+      "transliteration": "hasbunallahu wa ni'mal-wakil",
+      "translation": "Allah is sufficient for us, and He is the best Disposer of affairs."
     }
   ]
 }

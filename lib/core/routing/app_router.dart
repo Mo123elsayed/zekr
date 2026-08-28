@@ -17,7 +17,10 @@ class AppRouter {
           settings: settings,
         );
       case Routes.details:
-        return MaterialPageRoute(builder: (_) => const DetailsScreen());
+        return MaterialPageRoute(
+          builder: (_) => const DetailsScreen(),
+          settings: settings,
+        );
       case Routes.favorites:
         return MaterialPageRoute(builder: (_) => const FavoritesScreen());
       case Routes.onBoarding:
