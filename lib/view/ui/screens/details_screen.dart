@@ -44,6 +44,25 @@ class _DetailsScreenState extends State<DetailsScreen> {
           controller: PageController(viewportFraction: 0.8),
           itemBuilder: (context, index) => const ZikrCard(),
         ),
+        bottomNavigationBar: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                shape: const CircleBorder(),
+                padding: const EdgeInsets.all(20),
+                backgroundColor: Colors.green[100],
+                side: const BorderSide(color: Colors.green, width: 2),
+              ),
+              onPressed: () {
+                // Handle previous button press
+                
+              },
+              child: const Icon(Icons.arrow_back_ios_new),
+            ),
+        
+          ],
+        )
       ),
     );
   }

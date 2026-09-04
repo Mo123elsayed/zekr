@@ -1,20 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:zekr/core/themes/app_text.dart';
+import 'package:zekr/view/ui/widgets/zikr_progress_indicator.dart';
 import 'package:zekr/view_model/azkar_cubit/azkar_cubit.dart';
 
 class ZikrCard extends StatefulWidget {
   const ZikrCard({super.key});
 
   @override
-  State<ZikrCard> createState() => _ZikrCardState();
+  State<ZikrCard> createState() => _ZikrCardState(zikrText: '', zikrTransliteration: '');
 }
 
 class _ZikrCardState extends State<ZikrCard> {
+  final String zikrText;
+  final String zikrTransliteration;
+  
+  int currentCount = 0;
+  int currentIndex = 0;
+
+  _ZikrCardState({required this.zikrText, required this.zikrTransliteration});
   @override
   Widget build(BuildContext context) {
-    int currentIndex = 0;
     return BlocConsumer<AzkarCubit, AzkarState>(
       listener: (context, state) {
         // TODO: implement listener
@@ -35,8 +43,8 @@ class _ZikrCardState extends State<ZikrCard> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.bookmark, size: 50, color: Colors.green[700]),
-                const SizedBox(height: 20),
+                Icon(Icons.bookmark, size: 50.sp, color: Colors.green[700]),
+                SizedBox(height: 20.h),
                 Text(
                   state.azkar.azkar[currentIndex].text,
                   overflow: TextOverflow.visible,
@@ -66,9 +74,9 @@ class _ZikrCardState extends State<ZikrCard> {
                       indent: 50,
                       endIndent: 50,
                     ),
-                    const SizedBox(height: 20),
+                    SizedBox(height: 20.h),
                     Text(
-                      state.azkar.azkar[currentIndex].transliteration,
+                      zikrTransliteration,
                       overflow: TextOverflow.visible,
                       textAlign: TextAlign.center,
                       style: TextStyle(fontFamily: 'Pliant', fontSize: 15),
@@ -78,6 +86,25 @@ class _ZikrCardState extends State<ZikrCard> {
                       thickness: 2,
                       indent: 50,
                       endIndent: 50,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          final repeat = state.azkar.azkar[currentIndex].repeat;
+                          if (currentCount < repeat) {
+                            currentCount++;
+                          }
+                        });
+                      },
+                      onLongPress: () {
+                        setState(() {
+                          currentCount = 0;
+                        });
+                      },
+                      child: ZikrProgressIndicator(
+                        currentCount: currentCount,
+                        totalCount: state.azkar.azkar[currentIndex].repeat,
+                      ),
                     ),
                   ],
                 ),

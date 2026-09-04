@@ -39,6 +39,7 @@ dependencies:
   equatable: ^2.1.0
   dart_either: ^2.1.0
   flutter_svg: ^2.3.0
+  percent_indicator: ^4.2.5
 
 dev_dependencies:
   flutter_test:
