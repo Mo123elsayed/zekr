@@ -40,9 +40,30 @@ class _DetailsScreenState extends State<DetailsScreen> {
             ),
           ],
         ),
-        body: PageView.builder(
-          controller: PageController(viewportFraction: 0.8),
-          itemBuilder: (context, index) => const ZikrCard(),
+        body: BlocConsumer<AzkarCubit, AzkarState>(
+          listener: (context, state) {
+            // TODO: implement listener
+          },
+          builder: (context, state) {
+            if (state is AzkarLoading) {
+              return const Center(child: CircularProgressIndicator());
+            }
+            if (state is AzkarFailure) {
+              return Center(child: Text(state.error));
+            }
+            if (state is AzkarSuccess) {
+              return PageView.builder(
+                itemCount: state.azkar.azkar.length,
+                controller: PageController(viewportFraction: 0.8),
+                itemBuilder: (context, index) => ZikrCard(
+                  zikrText: state.azkar.azkar[index].text,
+                  zikrTransliteration: state.azkar.azkar[index].transliteration,
+                  azkarRepeat: state.azkar.azkar[index].repeat,
+                ),
+              );
+            }
+            return const Text('No data available');
+          },
         ),
         bottomNavigationBar: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -50,19 +71,25 @@ class _DetailsScreenState extends State<DetailsScreen> {
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                 shape: const CircleBorder(),
-                padding: const EdgeInsets.all(20),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 40,
+                  vertical: 10,
+                ),
                 backgroundColor: Colors.green[100],
                 side: const BorderSide(color: Colors.green, width: 2),
               ),
               onPressed: () {
                 // Handle previous button press
-                
               },
-              child: const Icon(Icons.arrow_back_ios_new),
+              child: Row(
+                children: [
+                  const Icon(Icons.arrow_back_ios_new),
+                  Text('Previous', style: TextStyle(color: Colors.green[700])),
+                ],
+              ),
             ),
-        
           ],
-        )
+        ),
       ),
     );
   }

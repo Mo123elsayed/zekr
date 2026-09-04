@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
 class ZikrProgressIndicator extends StatelessWidget {
@@ -14,7 +15,7 @@ class ZikrProgressIndicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircularPercentIndicator(
-      radius: 150,
+      radius: 120,
       lineWidth: 8,
 
       // نسبة التقدم
@@ -23,18 +24,14 @@ class ZikrProgressIndicator extends StatelessWidget {
       center: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(
-            Icons.refresh,
-            size: 45,
-            color: Colors.green,
-          ),
+          const Icon(Icons.refresh, size: 20, color: Colors.green),
 
           const SizedBox(height: 10),
 
           const Text(
             'Tap to Repeat',
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 15,
               color: Colors.green,
               fontWeight: FontWeight.w600,
             ),
@@ -45,21 +42,18 @@ class ZikrProgressIndicator extends StatelessWidget {
           Text(
             '$currentCount/$totalCount',
             style: const TextStyle(
-              fontSize: 50,
+              fontSize: 35,
               fontWeight: FontWeight.bold,
               color: Colors.green,
             ),
           ),
 
-          const SizedBox(height: 10),
+          SizedBox(height: 10.h),
 
           const Text(
             'Long press to reset',
             textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-            ),
+            style: TextStyle(fontSize: 16, color: Colors.grey),
           ),
         ],
       ),
