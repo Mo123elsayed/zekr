@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zekr/core/routing/app_router.dart';
+import 'package:zekr/core/themes/app_colors.dart';
 
 class ZekrApp extends StatelessWidget {
   const ZekrApp({super.key});
@@ -16,7 +17,10 @@ class ZekrApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Zekr App',
-        theme: ThemeData(useMaterial3: false, primarySwatch: Colors.blue),
+        theme: ThemeData(
+          useMaterial3: true,
+          colorSchemeSeed: AppColors.primaryGreen,
+        ),
         onGenerateRoute: appRouter.generateRoute,
       ),
     );

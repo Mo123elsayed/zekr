@@ -14,10 +14,26 @@ class DetailsScreen extends StatefulWidget {
 }
 
 class _DetailsScreenState extends State<DetailsScreen> {
+  int currentIndex = 0;
+  late PageController _pageController;
+
   /// This widget is the root of your application.
   /// details screen will display the azkar of the selected category. It will receive the category id from the previous screen and use it to fetch the azkar from the repository.
   /// The azkar will be displayed in a page view, where the user can swipe left or right to see the next or previous azkar. Each page will display the text and transliteration of the azkar.
   ///
+  @override
+  void initState() {
+    super.initState();
+    _pageController = PageController(viewportFraction: 1.0);
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    _pageController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final zekrId = ModalRoute.of(context)?.settings.arguments as String;
@@ -32,7 +48,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
             onPressed: () => Navigator.pop(context),
             icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),
           ),
-          backgroundColor: Colors.green[100],
+          backgroundColor: Color.fromARGB(255, 254, 254, 254),
           actions: [
             IconButton(
               onPressed: () {},
@@ -54,7 +70,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
             if (state is AzkarSuccess) {
               return PageView.builder(
                 itemCount: state.azkar.azkar.length,
-                controller: PageController(viewportFraction: 0.8),
                 itemBuilder: (context, index) => ZikrCard(
                   zikrText: state.azkar.azkar[index].text,
                   zikrTransliteration: state.azkar.azkar[index].transliteration,
@@ -70,7 +85,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
           children: [
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                shape: const CircleBorder(),
                 padding: const EdgeInsets.symmetric(
                   horizontal: 40,
                   vertical: 10,
