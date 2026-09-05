@@ -1,0 +1,24 @@
+{
+  "category": {
+    "id": "moon",
+    "title": "عند رؤية الهلال"
+  },
+  "azkar": [
+    {
+      "id": 15,
+      "text": "اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْيُمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ، رَبِّي وَرَبُّكَ اللَّهُ",
+      "repeat": 1,
+      "virtue": "رواه الترمذي",
+      "transliteration": "allahumma ahillahu alayna bil-yumni wal-iman, was-salamati wal-islam, rabbi wa rabbuk Allah",
+      "translation": "O Allah, let this moon appear over us with blessing and faith, safety and Islam. My Lord and your Lord is Allah."
+    },
+    {
+      "id": 16,
+      "text": "اللَّهُ أَكْبَرُ، اللَّهُمَّ أَهِلَّهُ عَلَيْنَا بِالْأَمْنِ وَالْإِيمَانِ، وَالسَّلَامَةِ وَالْإِسْلَامِ",
+      "repeat": 1,
+      "virtue": "دعاء رؤية الهلال",
+      "transliteration": "Allahu akbar, allahumma ahillahu alayna bil-amni wal-iman, was-salamati wal-islam",
+      "translation": "Allah is the Greatest. O Allah, let this moon appear over us with security and faith, safety and Islam."
+    }
+  ]
+}

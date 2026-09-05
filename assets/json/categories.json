@@ -53,28 +53,33 @@
     "filePath": "assets/json/azkar-ar/quran.json"
   },
   {
-  "id": "wakeup",
-  "title": "أذكار الاستيقاظ",
-  "filePath": "assets/json/azkar-ar/sleep.json"
-},
-{
+    "id": "wakeup",
+    "title": "أذكار الاستيقاظ",
+    "filePath": "assets/json/azkar-ar/wakeup.json"
+  },
+  {
     "id": "daily_general",
-    "title": "أذكار عامة يومية"
+    "title": "أذكار عامة يومية",
+    "filePath": "assets/json/azkar-ar/daily_general.json"
   },
   {
     "id": "rain",
-    "title": "عند المطر"
+    "title": "عند المطر",
+    "filePath": "assets/json/azkar-ar/rain.json"
   },
   {
     "id": "adhan",
-    "title": "عند سماع الأذان"
+    "title": "عند سماع الأذان",
+    "filePath": "assets/json/azkar-ar/adhan.json"
   },
   {
     "id": "moon",
-    "title": "عند رؤية الهلال"
+    "title": "عند رؤية الهلال",
+    "filePath": "assets/json/azkar-ar/moon.json"
   },
   {
     "id": "clothes",
-    "title": "عند لبس الملابس"
+    "title": "عند لبس الملابس",
+    "filePath": "assets/json/azkar-ar/clothes.json"
   }
 ]

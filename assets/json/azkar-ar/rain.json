@@ -1,0 +1,32 @@
+{
+  "category": {
+    "id": "rain",
+    "title": "عند المطر"
+  },
+  "azkar": [
+    {
+      "id": 9,
+      "text": "اللَّهُمَّ صَيِّبًا نَافِعًا",
+      "repeat": 1,
+      "virtue": "رواه البخاري",
+      "transliteration": "allahumma sayyiban nafian",
+      "translation": "O Allah, make it beneficial rain."
+    },
+    {
+      "id": 10,
+      "text": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ",
+      "repeat": 1,
+      "virtue": "متفق عليه",
+      "transliteration": "mutirna bi-fadlillahi wa rahmatih",
+      "translation": "We have been given rain by the grace and mercy of Allah."
+    },
+    {
+      "id": 11,
+      "text": "اللَّهُمَّ صَيِّبًا هَنِيئًا",
+      "repeat": 1,
+      "virtue": "دعاء عند المطر",
+      "transliteration": "allahumma sayyiban hanian",
+      "translation": "O Allah, make it pleasant and beneficial rain."
+    }
+  ]
+}

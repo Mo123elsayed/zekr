@@ -1,0 +1,32 @@
+{
+  "category": {
+    "id": "adhan",
+    "title": "عند سماع الأذان"
+  },
+  "azkar": [
+    {
+      "id": 12,
+      "text": "تَقُولُ مِثْلَ مَا يَقُولُ الْمُؤَذِّنُ، إِلَّا فِي الْحَيَّعَلَتَيْنِ، فَتَقُولُ: لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "repeat": 1,
+      "virtue": "رواه مسلم",
+      "transliteration": "taqulu mithla ma yaqulul-muadhdhin, illa fil-hayy alatayn, fataqulu la hawla wa la quwwata illa billah",
+      "translation": "Repeat what the caller to prayer says, except when he says Come to prayer and Come to success; then say: There is no power and no strength except through Allah."
+    },
+    {
+      "id": 13,
+      "text": "اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ، وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ",
+      "repeat": 1,
+      "virtue": "رواه البخاري",
+      "transliteration": "allahumma rabba hadhihid-dawatit-tammah, was-salatil-qa-imah, ati muhammadan al-wasilata wal-fadilah, wabathhu maqaman mahmudan alladhi waadtah",
+      "translation": "O Allah, Lord of this perfect call and established prayer, grant Muhammad the means and virtue, and raise him to the Praiseworthy Station which You have promised him."
+    },
+    {
+      "id": 14,
+      "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
+      "repeat": 1,
+      "virtue": "رواه مسلم",
+      "transliteration": "allahumma salli ala muhammadin wa ala ali muhammad",
+      "translation": "O Allah, send Your blessings upon Muhammad and upon the family of Muhammad."
+    }
+  ]
+}

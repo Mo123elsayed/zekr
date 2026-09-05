@@ -1,0 +1,32 @@
+{
+  "category": {
+    "id": "clothes",
+    "title": "عند لبس الملابس"
+  },
+  "azkar": [
+    {
+      "id": 17,
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "al-hamdu lillahil-ladhi kasani hadhath-thawba wa razaqanihi min ghayri hawlin minni wa la quwwah",
+      "translation": "All praise is due to Allah who clothed me with this garment and provided it for me without any power or strength from me."
+    },
+    {
+      "id": 18,
+      "text": "الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي مَا أُوَارِي بِهِ عَوْرَتِي وَأَتَجَمَّلُ بِهِ فِي حَيَاتِي",
+      "repeat": 1,
+      "virtue": "دعاء عند لبس الثوب",
+      "transliteration": "al-hamdu lillahil-ladhi kasani ma uwari bihi awrati wa atajammalu bihi fi hayati",
+      "translation": "All praise is due to Allah who clothed me with what covers my private parts and with which I beautify myself in my life."
+    },
+    {
+      "id": 19,
+      "text": "اللَّهُمَّ لَكَ الْحَمْدُ أَنْتَ كَسَوْتَنِيهِ، أَسْأَلُكَ خَيْرَهُ وَخَيْرَ مَا صُنِعَ لَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا صُنِعَ لَهُ",
+      "repeat": 1,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "allahumma lakal-hamd, anta kasawtanih, asaluka khayrahu wa khayra ma suniya lah, wa audhu bika min sharrihi wa sharri ma suniya lah",
+      "translation": "O Allah, all praise is for You. You have clothed me with it. I ask You for its goodness and the goodness for which it was made, and I seek refuge in You from its evil and the evil for which it was made."
+    }
+  ]
+}

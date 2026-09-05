@@ -1,0 +1,72 @@
+{
+  "category": {
+    "id": "daily_general",
+    "title": "أذكار عامة يومية"
+  },
+  "azkar": [
+    {
+      "id": 1,
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "repeat": 100,
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wa bihamdih",
+      "translation": "Glory and praise be to Allah."
+    },
+    {
+      "id": 2,
+      "text": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "repeat": 100,
+      "virtue": "متفق عليه",
+      "transliteration": "la ilaha illa Allah wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa ala kulli shayin qadir",
+      "translation": "There is no god but Allah alone, without partner. To Him belongs the dominion and all praise, and He is capable of all things."
+    },
+    {
+      "id": 3,
+      "text": "الْحَمْدُ لِلَّهِ",
+      "repeat": 1,
+      "virtue": "ذكر عام",
+      "transliteration": "al-hamdu lillah",
+      "translation": "All praise is due to Allah."
+    },
+    {
+      "id": 4,
+      "text": "اللَّهُ أَكْبَرُ",
+      "repeat": 1,
+      "virtue": "ذكر عام",
+      "transliteration": "Allahu akbar",
+      "translation": "Allah is the Greatest."
+    },
+    {
+      "id": 5,
+      "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
+      "repeat": 100,
+      "virtue": "متفق عليه",
+      "transliteration": "astaghfirullaha wa atubu ilayh",
+      "translation": "I seek forgiveness from Allah and repent to Him."
+    },
+    {
+      "id": 6,
+      "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ، وَاللَّهُ أَكْبَرُ",
+      "repeat": 1,
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wal-hamdu lillah, wallahu akbar",
+      "translation": "Glory be to Allah, all praise is due to Allah, and Allah is the Greatest."
+    },
+    {
+      "id": 7,
+      "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "repeat": 1,
+      "virtue": "متفق عليه",
+      "transliteration": "la hawla wa la quwwata illa billah",
+      "translation": "There is no power and no strength except through Allah."
+    },
+    {
+      "id": 8,
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
+      "repeat": 1,
+      "virtue": "متفق عليه",
+      "transliteration": "subhanallahi wa bihamdih, subhanallahi al-azim",
+      "translation": "Glory and praise be to Allah; glory be to Allah, the Magnificent."
+    }
+  ]
+}

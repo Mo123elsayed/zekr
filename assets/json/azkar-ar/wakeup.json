@@ -1,0 +1,40 @@
+    {
+  "category": {
+    "id": "wakeup",
+    "title": "أذكار الاستيقاظ من النوم"
+  },
+  "azkar": [
+    {
+      "id": 11,
+      "text": "الحمد لله الذي أحيانا بعدما أماتنا وإليه النشور",
+      "repeat": 1,
+      "virtue": "رواه البخاري",
+      "transliteration": "al-hamdu lillahi alladhi ahyana ba'dama amatana wa ilayhi an-nushur",
+      "translation": "All praise is due to Allah who gave us life after causing us to die, and to Him is the resurrection."
+    },
+    {
+      "id": 12,
+      "text": "الحمد لله الذي عافاني في جسدي ورد علي روحي وأذن لي بذكره",
+      "repeat": 1,
+      "virtue": "رواه الترمذي",
+      "transliteration": "al-hamdu lillahi alladhi 'afani fi jasadi wa radda 'alayya ruhi wa adhina li bi-dhikrihi",
+      "translation": "All praise is due to Allah who restored health to my body, returned my soul to me, and permitted me to remember Him."
+    },
+    {
+      "id": 13,
+      "text": "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير",
+      "repeat": 1,
+      "virtue": "رواه البخاري",
+      "transliteration": "la ilaha illa allahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd wa huwa 'ala kulli shay'in qadir",
+      "translation": "There is no deity except Allah alone, without partner. To Him belongs the dominion and all praise, and He is over all things capable."
+    },
+    {
+      "id": 14,
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nإِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِّأُولِي الْأَلْبَابِ ۝١٩٠",
+      "repeat": 1,
+      "virtue": "سورة آل عمران، الآية 190",
+      "transliteration": "inna fi khalqi as-samawati wal-ardi wakhtilafi al-layli wan-nahari la-ayatin li-uli al-albab",
+      "translation": "Indeed, in the creation of the heavens and the earth and the alternation of the night and day are signs for those of understanding."
+    }
+  ]
+}
