@@ -2,197 +2,116 @@
   "categories": [
     {
       "id": "ruqyah",
-      "title": "أذكار الرقية الشرعية"
+      "title": "الرقية الشرعية"
     }
   ],
   "azkar": [
     {
       "id": 1,
       "category_id": "ruqyah",
-      "text": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
-      "repeat": 1,
-      "virtue": "مسلم",
-      "transliteration": "bismillah ar-rahman ar-rahim",
-      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful."
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ۝١\nالرَّحْمَٰنِ الرَّحِيمِ ۝٢\nمَالِكِ يَوْمِ الدِّينِ ۝٣\nإِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝٤\nاهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ۝٥\nصِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ۝٦",
+      "repeat": 7,
+      "virtue": "سورة الفاتحة",
+      "transliteration": "bismillahir-rahmanir-rahim. al-hamdu lillahi rabbil-alamin. ar-rahmanir-rahim. maliki yawmid-din. iyyaka nabudu wa iyyaka nasta-in. ihdinas-siratal-mustaqim. siratal-ladhina anamta alayhim ghayril-maghdubi alayhim wa lad-dallin",
+      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful. All praise is due to Allah, Lord of the worlds. The Most Compassionate, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path, the path of those You have blessed, not those who have earned Your anger, nor those who have gone astray."
     },
     {
       "id": 2,
       "category_id": "ruqyah",
-      "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
-      "repeat": 7,
-      "virtue": "الفاتحة",
-      "transliteration": "al-hamdu lillahi rabbi al-'alamin",
-      "translation": "All praise is due to Allah, Lord of the worlds."
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nاللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۝٢٥٥ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+      "repeat": 3,
+      "virtue": "آية الكرسي - سورة البقرة: 255",
+      "transliteration": "bismillahir-rahmanir-rahim. allahu la ilaha illa huwa al-hayyul-qayyum. la ta'khudhuhu sinatun wa la nawm. lahu ma fis-samawati wa ma fil-ard. man dhal-ladhi yashfau indahu illa bi-idhnih. yalamu ma bayna aydihim wa ma khalfahum. wa la yuhituna bishay-in min ilmihi illa bima sha. wasia kursiyyuhus-samawati wal-ard. wa la yauduhu hifzuhuma wa huwal-aliyyul-azim",
+      "translation": "Allah—there is no deity except Him, the Ever-Living, the Sustainer of all. Neither drowsiness nor sleep overtakes Him. To Him belongs whatever is in the heavens and the earth. Who can intercede with Him except by His permission? He knows what is before them and what is behind them, and they encompass nothing of His knowledge except what He wills. His Throne encompasses the heavens and the earth, and preserving them does not tire Him. He is the Most High, the Most Great."
     },
     {
       "id": 3,
       "category_id": "ruqyah",
-      "text": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
-      "repeat": 3,
-      "virtue": "آية الكرسي",
-      "transliteration": "allahu la ilaha illa huwa al-hayyu al-qayyum",
-      "translation": "Allah—there is no deity except Him, the Ever-Living, the Sustainer of all."
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ وَإِنْ تُبْدُوا مَا فِي أَنْفُسِكُمْ أَوْ تُخْفُوهُ يُحَاسِبْكُمْ بِهِ اللَّهُ ۖ فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ ۗ وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ ۝٢٨٤\nآمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ ۝٢٨٥\nلَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ ۝٢٨٦",
+      "repeat": 1,
+      "virtue": "آخر سورة البقرة",
+      "transliteration": "bismillahir-rahmanir-rahim. lillahi ma fis-samawati wa ma fil-ard... amanar-rasulu bima unzila ilayhi mir-rabbihi wal-muminun... la yukallifullahu nafsan illa wusaha...",
+      "translation": "To Allah belongs whatever is in the heavens and the earth... The Messenger has believed in what was revealed to him from his Lord, and so have the believers... Allah does not burden a soul beyond its capacity..."
     },
     {
       "id": 4,
       "category_id": "ruqyah",
-      "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nقُلْ هُوَ اللَّهُ أَحَدٌ ۝١\nاللَّهُ الصَّمَدُ ۝٢\nلَمْ يَلِدْ وَلَمْ يُولَدْ ۝٣\nوَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ ۝٤",
       "repeat": 3,
-      "virtue": "الإخلاص",
-      "transliteration": "qul huwa allahu ahad",
-      "translation": "Say: He is Allah, the One."
+      "virtue": "سورة الإخلاص",
+      "transliteration": "bismillahir-rahmanir-rahim. qul huwa Allahu ahad. Allahus-samad. lam yalid wa lam yulad. wa lam yakun lahu kufuwan ahad",
+      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful. Say: He is Allah, the One. Allah, the Eternal Refuge. He neither begets nor is born. And there is none comparable to Him."
     },
     {
       "id": 5,
       "category_id": "ruqyah",
-      "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝١\nمِنْ شَرِّ مَا خَلَقَ ۝٢\nوَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝٣\nوَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝٤\nوَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ ۝٥",
       "repeat": 3,
-      "virtue": "الفلق",
-      "transliteration": "qul a'udhu bi rabbi al-falaq",
-      "translation": "Say: I seek refuge in the Lord of the daybreak."
+      "virtue": "سورة الفلق",
+      "transliteration": "bismillahir-rahmanir-rahim. qul audhu bi-rabbil-falaq. min sharri ma khalaq. wa min sharri ghasiqin idha waqab. wa min sharrin-naffathati fil-uqad. wa min sharri hasidin idha hasad",
+      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful. Say: I seek refuge in the Lord of the daybreak, from the evil of what He created, from the evil of darkness when it settles, from the evil of those who blow on knots, and from the evil of an envier when he envies."
     },
     {
       "id": 6,
       "category_id": "ruqyah",
-      "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+      "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝١\nمَلِكِ النَّاسِ ۝٢\nإِلَٰهِ النَّاسِ ۝٣\nمِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝٤\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝٥\nمِنَ الْجِنَّةِ وَالنَّاسِ ۝٦",
       "repeat": 3,
-      "virtue": "الناس",
-      "transliteration": "qul a'udhu bi rabbi an-nas",
-      "translation": "Say: I seek refuge in the Lord of mankind."
+      "virtue": "سورة الناس",
+      "transliteration": "bismillahir-rahmanir-rahim. qul audhu bi-rabbin-nas. malikin-nas. ilahin-nas. min sharril-waswasil-khannas. alladhi yuwaswisu fi sudurin-nas. minal-jinnati wan-nas",
+      "translation": "In the name of Allah, the Most Compassionate, the Most Merciful. Say: I seek refuge in the Lord of mankind, the King of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers into the hearts of mankind, from among jinn and mankind."
     },
     {
       "id": 7,
       "category_id": "ruqyah",
-      "text": "آمَنَ الرَّسُولُ بِمَا أُنزِلَ إِلَيْهِ",
+      "text": "بِسْمِ اللَّهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنِ حَاسِدٍ، اللَّهُ يَشْفِيكَ، بِسْمِ اللَّهِ أَرْقِيكَ",
       "repeat": 3,
-      "virtue": "آخر البقرة",
-      "transliteration": "amana ar-rasulu bima unzila ilayhi",
-      "translation": "The Messenger has believed in what was revealed to him from his Lord."
+      "virtue": "رواه مسلم",
+      "transliteration": "bismillahi arqik, min kulli shayin yu'dhik, min sharri kulli nafsin aw ayni hasid, Allahu yashfik, bismillahi arqik",
+      "translation": "In the name of Allah I perform ruqyah for you, from everything that harms you, from the evil of every soul or envious eye. May Allah heal you. In the name of Allah I perform ruqyah for you."
     },
     {
       "id": 8,
       "category_id": "ruqyah",
-      "text": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
-      "repeat": 3,
-      "virtue": "العياذ",
-      "transliteration": "a'udhu billahi min ash-shaytan ir-rajim",
-      "translation": "I seek refuge in Allah from the accursed Satan."
+      "text": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، اشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا",
+      "repeat": 7,
+      "virtue": "متفق عليه",
+      "transliteration": "allahumma rabban-nas, adhhibil-bas, ishfi antash-shafi, la shifa-a illa shifa-uk, shifa-an la yughadiru saqama",
+      "translation": "O Allah, Lord of mankind, remove the suffering and heal. You are the Healer. There is no healing except Your healing, a healing that leaves no illness."
     },
     {
       "id": 9,
       "category_id": "ruqyah",
-      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ",
-      "repeat": 7,
-      "virtue": "الكرب",
-      "transliteration": "hasbiyallahu la ilaha illa huwa",
-      "translation": "Allah is sufficient for me; there is no deity except Him."
+      "text": "ضَعْ يَدَكَ عَلَى الَّذِي تَأَلَّمَ مِنْ جَسَدِكَ، وَقُلْ: بِسْمِ اللَّهِ، ثَلَاثًا، وَقُلْ سَبْعَ مَرَّاتٍ: أَعُوذُ بِاللَّهِ وَقُدْرَتِهِ مِنْ شَرِّ مَا أَجِدُ وَأُحَاذِرُ",
+      "repeat": 1,
+      "virtue": "رواه مسلم",
+      "transliteration": "da yadaka alal-ladhi ta-allama min jasadik, wa qul bismillah thalathan, wa qul sabaa marratin audhu billahi wa qudratihi min sharri ma ajidu wa uhadhir",
+      "translation": "Place your hand on the part of your body that hurts and say: In the name of Allah, three times. Then say seven times: I seek refuge in Allah and His power from the evil of what I find and fear."
     },
     {
       "id": 10,
       "category_id": "ruqyah",
-      "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
-      "repeat": 100,
-      "virtue": "كنز الجنة",
-      "transliteration": "la hawla wa la quwwata illa billah",
-      "translation": "There is no power and no strength except through Allah."
+      "text": "أَسْأَلُ اللَّهَ الْعَظِيمَ، رَبَّ الْعَرْشِ الْعَظِيمِ، أَنْ يَشْفِيَكَ",
+      "repeat": 7,
+      "virtue": "رواه أبو داود والترمذي",
+      "transliteration": "as-alullaha al-azim, rabbal-arshil-azim, an yashfiyak",
+      "translation": "I ask Allah the Almighty, Lord of the Mighty Throne, to heal you."
     },
     {
       "id": 11,
       "category_id": "ruqyah",
-      "text": "بِسْمِ اللَّهِ الَّذِي لاَ يَضُرُّ مَعَ اسْمِهِ شَيْءٌ",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
       "repeat": 3,
-      "virtue": "أبو داود",
-      "transliteration": "bismillah alladhi la yadurru ma'a ismihi shay'un",
-      "translation": "In the name of Allah, with whose name nothing on earth or in heaven can cause harm."
+      "virtue": "رواه مسلم",
+      "transliteration": "audhu bi kalimatillahit-tammati min sharri ma khalaq",
+      "translation": "I seek refuge in the perfect words of Allah from the evil of what He has created."
     },
     {
       "id": 12,
       "category_id": "ruqyah",
-      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ",
-      "repeat": 3,
-      "virtue": "مسلم",
-      "transliteration": "a'udhu bi kalimatillahi at-tammati",
-      "translation": "I seek refuge in the perfect words of Allah."
-    },
-    {
-      "id": 13,
-      "category_id": "ruqyah",
-      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ عَدَدَ خَلْقِهِ",
-      "repeat": 3,
-      "virtue": "مسلم",
-      "transliteration": "subhanallahi wa bihamdihi 'adada khalqihi",
-      "translation": "Glory and praise be to Allah, as numerous as His creation."
-    },
-    {
-      "id": 14,
-      "category_id": "ruqyah",
-      "text": "اللَّهُمَّ رَبَّ النَّاسِ مُذْهِبَ الْبَأْسِ اشْفِ",
-      "repeat": 7,
-      "virtue": "شفاء",
-      "transliteration": "allahumma rabban-nas mudhhib al-ba's ishfi",
-      "translation": "O Allah, Lord of mankind, remove the suffering and grant healing."
-    },
-    {
-      "id": 15,
-      "category_id": "ruqyah",
-      "text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَآلِ مُحَمَّدٍ",
-      "repeat": 10,
-      "virtue": "الترمذي",
-      "transliteration": "allahumma salli 'ala muhammadin wa ali muhammad",
-      "translation": "O Allah, send Your blessings upon Muhammad and the family of Muhammad."
-    },
-    {
-      "id": 16,
-      "category_id": "ruqyah",
-      "text": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
-      "repeat": 3,
-      "virtue": "النسائي",
-      "transliteration": "ya hayyu ya qayyum bi rahmatika astaghith",
-      "translation": "O Ever-Living, O Sustainer, I seek help through Your mercy."
-    },
-    {
-      "id": 17,
-      "category_id": "ruqyah",
-      "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ",
-      "repeat": 33,
-      "virtue": "مسلم",
-      "transliteration": "subhanallah wal-hamdu lillah wa la ilaha illa allah",
-      "translation": "Glory be to Allah, all praise is due to Allah, and there is no deity except Allah."
-    },
-    {
-      "id": 18,
-      "category_id": "ruqyah",
-      "text": "اللَّهُمَّ أَذْهِبِ الْبَأْسَ رَبَّ النَّاسِ",
-      "repeat": 7,
-      "virtue": "أبو داود",
-      "transliteration": "allahumma adhhibil-ba's rabban-nas",
-      "translation": "O Allah, remove the suffering, Lord of mankind."
-    },
-    {
-      "id": 19,
-      "category_id": "ruqyah",
-      "text": "رَبِّيَ أَعُوذُ بِكَ مِنْ هَمَازَةِ مَشَّاءٍ",
-      "repeat": 3,
-      "virtue": "المعارج",
-      "transliteration": "rabbi a'udhu bika min hamazati mashsha",
-      "translation": "My Lord, I seek refuge in You from the whisperings and incitements of devils."
-    },
-    {
-      "id": 20,
-      "category_id": "ruqyah",
-      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ",
-      "repeat": 3,
-      "virtue": "الترمذي",
-      "transliteration": "allahumma inni as'aluka al-'afiyah",
-      "translation": "O Allah, I ask You for well-being and protection."
-    },
-    {
-      "id": 21,
-      "category_id": "ruqyah",
       "text": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
-      "repeat": 7,
-      "virtue": "آل عمران",
-      "transliteration": "hasbunallahu wa ni'mal-wakil",
+      "repeat": 1,
+      "virtue": "القرآن الكريم - آل عمران: 173",
+      "transliteration": "hasbunallahu wa nim al-wakil",
       "translation": "Allah is sufficient for us, and He is the best Disposer of affairs."
     }
   ]

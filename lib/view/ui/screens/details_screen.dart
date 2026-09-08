@@ -41,14 +41,14 @@ class _DetailsScreenState extends State<DetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final zekrId = ModalRoute.of(context)?.settings.arguments as String;
-    log(zekrId);
+    final zekrTitle = ModalRoute.of(context)?.settings.arguments as String;
+    log(zekrTitle);
     return BlocProvider(
-      create: (context) => AzkarCubit()..displayAzkar(zekrId),
+      create: (context) => AzkarCubit()..displayAzkar(zekrTitle),
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(zekrId, style: AppText.serifText20BoldGreen),
+          title: Text(zekrTitle, style: AppText.serifText20BoldGreen),
           leading: IconButton(
             onPressed: () => Navigator.pop(context),
             icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),

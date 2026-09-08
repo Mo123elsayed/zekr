@@ -91,7 +91,7 @@ flutter:
         - asset: assets/fonts/Cairo/Cairo-Regular.ttf
         - asset: assets/fonts/Cairo/Cairo-Bold.ttf
           weight: 800
-    - family: Trajan Pro
+    - family: Pliant
       fonts:
         - asset: assets/fonts/Pliant/Pliant-Regular.ttf
         - asset: assets/fonts/Pliant/Pliant-Bold.ttf

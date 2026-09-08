@@ -1,11 +1,12 @@
 {
-  "category": {
+  "categories": [{
     "id": "daily_general",
     "title": "أذكار عامة يومية"
-  },
+  }],
   "azkar": [
     {
       "id": 1,
+      "category_id": "daily_general",
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
       "repeat": 100,
       "virtue": "متفق عليه",
@@ -14,6 +15,7 @@
     },
     {
       "id": 2,
+      "category_id": "daily_general",
       "text": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
       "repeat": 100,
       "virtue": "متفق عليه",
@@ -22,6 +24,7 @@
     },
     {
       "id": 3,
+      "category_id": "daily_general",
       "text": "الْحَمْدُ لِلَّهِ",
       "repeat": 1,
       "virtue": "ذكر عام",
@@ -30,6 +33,7 @@
     },
     {
       "id": 4,
+      "category_id": "daily_general",
       "text": "اللَّهُ أَكْبَرُ",
       "repeat": 1,
       "virtue": "ذكر عام",
@@ -38,6 +42,7 @@
     },
     {
       "id": 5,
+      "category_id": "daily_general",
       "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ",
       "repeat": 100,
       "virtue": "متفق عليه",
@@ -46,6 +51,7 @@
     },
     {
       "id": 6,
+      "category_id": "daily_general",
       "text": "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ، وَاللَّهُ أَكْبَرُ",
       "repeat": 1,
       "virtue": "متفق عليه",
@@ -54,6 +60,7 @@
     },
     {
       "id": 7,
+      "category_id": "daily_general",
       "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
       "repeat": 1,
       "virtue": "متفق عليه",
@@ -62,6 +69,7 @@
     },
     {
       "id": 8,
+      "category_id": "daily_general",
       "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ",
       "repeat": 1,
       "virtue": "متفق عليه",

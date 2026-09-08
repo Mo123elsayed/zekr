@@ -98,7 +98,6 @@ class _ZikrCardState extends State<ZikrCard> {
                   SizedBox(height: 10.h),
                   Text(
                     widget.zikrTransliteration,
-                    overflow: TextOverflow.visible,
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: 'Pliant',
@@ -110,7 +109,7 @@ class _ZikrCardState extends State<ZikrCard> {
               ),
             ),
           ),
-          SizedBox(height: 20.h),
+          SizedBox(height: 10.h),
           GestureDetector(
             onTap: () {
               setState(() {
@@ -129,6 +128,71 @@ class _ZikrCardState extends State<ZikrCard> {
               totalCount: widget
                   .azkarRepeat, // Replace with the actual total count of the zikr
             ),
+          ),
+          SizedBox(height: 10.h),
+          Center(
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 5.h),
+              width: 140.w,
+              decoration: BoxDecoration(
+                color: AppColors.recommendedBackground,
+                borderRadius: BorderRadius.circular(5),
+              ),
+              child: Row(
+                children: [
+                  SvgPicture.asset(
+                    'assets/svgs/rub-el-hizb.svg',
+                    width: 15.w,
+                    height: 15.h,
+                    colorFilter: ColorFilter.mode(
+                      Color.fromARGB(255, 8, 112, 74),
+                      BlendMode.srcIn,
+                    ),
+                  ),
+                  Text(
+                    ' Recommended: ',
+                    style: TextStyle(
+                      fontFamily: 'Cairo',
+                      fontSize: 10.sp,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 8, 112, 74),
+                    ),
+                  ),
+                  Text(
+                    ' ${widget.azkarRepeat} times',
+                    style: TextStyle(
+                      fontFamily: 'Cairo',
+                      fontSize: 10.sp,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 8, 112, 74),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          SizedBox(height: 20.h),
+          Row(
+            children: [
+              CircleAvatar(
+                backgroundColor: AppColors.secondaryGreen,
+                child: Icon(
+                  Icons.menu_book_rounded,
+                  color: AppColors.lightGreen,
+                  size: 20.sp,
+                ),
+              ),
+              SizedBox(width: 10.w),
+              Text(
+                'Translation',
+                style: TextStyle(
+                  fontFamily: 'Cairo',
+                  fontSize: 12.sp,
+                  fontWeight: FontWeight.bold,
+                  color: AppColors.secondaryGreen,
+                ),
+              ),
+            ],
           ),
         ],
       ),
