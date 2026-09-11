@@ -18,55 +18,54 @@ class ZikrProgressIndicator extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
         shape: BoxShape.circle,
-        // color: Colors.green,
         color: AppColors.counterBackground,
       ),
       child: CircularPercentIndicator(
-        radius: 85.w,
-        lineWidth: 4,
+        radius: 80.w,
+        lineWidth: 3.w,
 
-        // نسبة التقدم
+        /// percent is calculated by dividing the current count by the total count
         percent: currentCount / totalCount,
 
         center: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(
-              Icons.refresh,
-              size: 20,
-              color: AppColors.secondaryGreen,
-            ),
+            Icon(Icons.refresh, size: 30.sp, color: AppColors.secondaryGreen),
 
-            SizedBox(height: 10.h),
+            SizedBox(height: 2.h),
 
-            const Text(
+            Text(
               'Tap to Repeat',
               style: TextStyle(
-                fontSize: 13,
+                fontSize: 10.sp,
                 color: AppColors.secondaryGreen,
-                fontWeight: FontWeight.w600,
               ),
             ),
 
-            SizedBox(height: 15.h),
-
+            SizedBox(height: 10.h),
             Text(
               '$currentCount/$totalCount',
-              style: const TextStyle(
-                fontSize: 30,
+              style: TextStyle(
+                fontSize: 25.sp,
                 fontWeight: FontWeight.bold,
                 color: AppColors.secondaryGreen,
               ),
             ),
 
             SizedBox(height: 10.h),
+            SizedBox(
+              width: 100.w,
+              child: Text(
+                'Long press to reset',
+                textAlign: TextAlign.center,
 
-            const Text(
-              'Long press to reset',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 12, color: AppColors.secondaryGreen),
+                style: TextStyle(
+                  fontSize: 10.sp,
+                  color: AppColors.secondaryGreen,
+                ),
+              ),
             ),
-            SizedBox(height: 10.h),
+            // SizedBox(height: 15.h),
           ],
         ),
 

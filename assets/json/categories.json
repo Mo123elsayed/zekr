@@ -43,16 +43,6 @@
     "filePath": "assets/json/azkar-ar/deceased.json"
   },
   {
-    "id": "occasional",
-    "title": "أذكار المناسبات",
-    "filePath": "assets/json/azkar-ar/occasional.json"
-  },
-  {
-    "id": "quran",
-    "title": "القرآن الكريم",
-    "filePath": "assets/json/azkar-ar/quran.json"
-  },
-  {
     "id": "wakeup",
     "title": "أذكار الاستيقاظ",
     "filePath": "assets/json/azkar-ar/wakeup.json"

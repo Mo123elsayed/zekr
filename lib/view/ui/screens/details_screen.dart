@@ -2,8 +2,11 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zekr/core/themes/app_colors.dart';
 import 'package:zekr/core/themes/app_text.dart';
+import 'package:zekr/view/ui/widgets/next_zikr_button.dart';
+import 'package:zekr/view/ui/widgets/pervious_zikr_button.dart';
 import 'package:zekr/view/ui/widgets/zikr_card.dart';
 import 'package:zekr/view_model/azkar_cubit/azkar_cubit.dart';
 
@@ -74,10 +77,17 @@ class _DetailsScreenState extends State<DetailsScreen> {
             }
             if (state is AzkarSuccess) {
               return PageView.builder(
+                controller: _pageController,
+                onPageChanged: (zikrIndex) {
+                  setState(() {
+                    currentIndex = zikrIndex;
+                  });
+                },
                 itemCount: state.azkar.azkar.length,
                 itemBuilder: (context, index) => ZikrCard(
                   zikrText: state.azkar.azkar[index].text,
                   zikrTransliteration: state.azkar.azkar[index].transliteration,
+                  zikrTranslation: state.azkar.azkar[index].translation,
                   azkarRepeat: state.azkar.azkar[index].repeat,
                 ),
               );
@@ -85,27 +95,41 @@ class _DetailsScreenState extends State<DetailsScreen> {
             return const Text('No data available');
           },
         ),
-        bottomNavigationBar: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            OutlinedButton(
-              style: OutlinedButton.styleFrom(
-                side: BorderSide(color: AppColors.secondaryGreen, width: 2),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(15),
-                ),
-              ),
-              onPressed: () {
-                // Handle previous button press
-              },
-              child: Row(
+        bottomNavigationBar: BlocBuilder<AzkarCubit, AzkarState>(
+          builder: (context, state) {
+            if (state is AzkarSuccess) {
+              final totalAzkar = state.azkar.azkar.length;
+              return Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.arrow_back_ios_new),
-                  Text('Previous', style: TextStyle(color: Colors.green[700])),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 20.h),
+
+                    child: Row(
+                      children: [
+                        PerviousZikrButton(
+                          currentIndex: currentIndex,
+                          pageController: _pageController,
+                        ),
+                        SizedBox(width: 10.w),
+                        Text(
+                          '${currentIndex + 1}/${totalAzkar}',
+                          style: TextStyle(color: AppColors.secondaryGreen),
+                        ),
+                        SizedBox(width: 10.w),
+                        NextZikrButton(
+                          currentIndex: currentIndex,
+                          totalAzkar: totalAzkar,
+                          pageController: _pageController,
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
-              ),
-            ),
-          ],
+              );
+            }
+            return const SizedBox.shrink();
+          },
         ),
       ),
     );

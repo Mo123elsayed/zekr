@@ -1,8 +1,8 @@
 {
-  "categories": {
+  "categories": [{
     "id": "rain",
     "title": "عند المطر"
-  },
+  }],
   "azkar": [
     {
       "id": 9,

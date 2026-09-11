@@ -7,11 +7,13 @@ import 'package:zekr/view/ui/widgets/zikr_progress_indicator.dart';
 class ZikrCard extends StatefulWidget {
   final String zikrText;
   final String zikrTransliteration;
+  final String zikrTranslation;
   final int azkarRepeat;
   const ZikrCard({
     super.key,
     required this.zikrText,
     required this.zikrTransliteration,
+    required this.zikrTranslation,
     required this.azkarRepeat,
   });
 
@@ -21,13 +23,13 @@ class ZikrCard extends StatefulWidget {
 
 class _ZikrCardState extends State<ZikrCard> {
   int currentCount = 0;
-  int currentIndex = 0;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 10.w),
-      margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 20.h),
+      height: 90.h,
+      // padding: EdgeInsets.symmetric(horizontal: 10.w),
+      margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.h),
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
@@ -40,8 +42,9 @@ class _ZikrCardState extends State<ZikrCard> {
         borderRadius: BorderRadius.circular(20),
       ),
       child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
-          SizedBox(height: 20.h),
+          SizedBox(height: 6.h),
           CircleAvatar(
             backgroundColor: Color(0xFFF1F9F6),
             child: Icon(
@@ -50,9 +53,9 @@ class _ZikrCardState extends State<ZikrCard> {
               color: Colors.green[700],
             ),
           ),
-          SizedBox(height: 15.h),
+          SizedBox(height: 10.h),
           SizedBox(
-            height: 250.h,
+            height: 130.h,
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
               child: Column(
@@ -62,11 +65,12 @@ class _ZikrCardState extends State<ZikrCard> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontFamily: 'Cairo',
-                      fontSize: 15.sp,
+                      fontSize: 13.sp,
                       fontWeight: FontWeight.bold,
                       color: AppColors.secondaryGreen,
                     ),
                   ),
+                  // this row is used to create a divider with an icon in the middle
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -92,7 +96,6 @@ class _ZikrCardState extends State<ZikrCard> {
                           thickness: 1,
                         ),
                       ),
-                      SizedBox(height: 20.h),
                     ],
                   ),
                   SizedBox(height: 10.h),
@@ -109,6 +112,7 @@ class _ZikrCardState extends State<ZikrCard> {
               ),
             ),
           ),
+          SizedBox(child: Divider(color: Colors.grey[200], thickness: 1)),
           SizedBox(height: 10.h),
           GestureDetector(
             onTap: () {
@@ -129,16 +133,17 @@ class _ZikrCardState extends State<ZikrCard> {
                   .azkarRepeat, // Replace with the actual total count of the zikr
             ),
           ),
-          SizedBox(height: 10.h),
+          SizedBox(height: 5.h),
           Center(
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 5.h),
-              width: 140.w,
+
               decoration: BoxDecoration(
                 color: AppColors.recommendedBackground,
                 borderRadius: BorderRadius.circular(5),
               ),
               child: Row(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   SvgPicture.asset(
                     'assets/svgs/rub-el-hizb.svg',
@@ -172,27 +177,49 @@ class _ZikrCardState extends State<ZikrCard> {
             ),
           ),
           SizedBox(height: 20.h),
-          Row(
-            children: [
-              CircleAvatar(
-                backgroundColor: AppColors.secondaryGreen,
-                child: Icon(
-                  Icons.menu_book_rounded,
-                  color: AppColors.lightGreen,
-                  size: 20.sp,
+          Padding(
+            padding: const EdgeInsets.only(left: 8.0),
+            child: Row(
+              children: [
+                CircleAvatar(
+                  radius: 15.r,
+                  backgroundColor: AppColors.secondaryGreen,
+                  child: Icon(
+                    Icons.menu_book_rounded,
+                    color: AppColors.lightGreen,
+                    size: 15.sp,
+                  ),
+                ),
+                SizedBox(width: 10.w),
+                Text(
+                  'Translation',
+                  style: TextStyle(
+                    fontFamily: 'Cairo',
+                    fontSize: 12.sp,
+                    fontWeight: FontWeight.bold,
+                    color: AppColors.secondaryGreen,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 8.0, left: 8.0, right: 8.0),
+            child: SizedBox(
+              height: 100.h,
+              child: SingleChildScrollView(
+                physics: const BouncingScrollPhysics(),
+
+                child: Text(
+                  widget.zikrTranslation,
+                  style: TextStyle(
+                    fontFamily: 'Pliant',
+                    fontSize: 12.sp,
+                    color: Color.fromARGB(255, 95, 95, 95),
+                  ),
                 ),
               ),
-              SizedBox(width: 10.w),
-              Text(
-                'Translation',
-                style: TextStyle(
-                  fontFamily: 'Cairo',
-                  fontSize: 12.sp,
-                  fontWeight: FontWeight.bold,
-                  color: AppColors.secondaryGreen,
-                ),
-              ),
-            ],
+            ),
           ),
         ],
       ),
