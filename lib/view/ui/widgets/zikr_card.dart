@@ -8,6 +8,7 @@ class ZikrCard extends StatefulWidget {
   final String zikrText;
   final String zikrTransliteration;
   final String zikrTranslation;
+  final VoidCallback? onFinished;
   final int azkarRepeat;
   const ZikrCard({
     super.key,
@@ -15,6 +16,7 @@ class ZikrCard extends StatefulWidget {
     required this.zikrTransliteration,
     required this.zikrTranslation,
     required this.azkarRepeat,
+    this.onFinished,
   });
 
   @override
@@ -119,6 +121,12 @@ class _ZikrCardState extends State<ZikrCard> {
               setState(() {
                 if (currentCount < widget.azkarRepeat) {
                   currentCount++;
+                }
+                /// if the current count is equal to the total count, we call the onFinished callback
+                if (currentCount == widget.azkarRepeat) {
+                  // Call the onFinished callback if it's not null
+                  // This will notify the parent widget that the zikr has been completed
+                  widget.onFinished?.call();
                 }
               });
             },
