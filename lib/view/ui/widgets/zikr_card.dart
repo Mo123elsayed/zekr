@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:zekr/core/themes/app_colors.dart';
+import 'package:zekr/view/ui/widgets/quranic_text.dart';
 import 'package:zekr/view/ui/widgets/zikr_progress_indicator.dart';
 
 class ZikrCard extends StatefulWidget {
@@ -62,16 +63,17 @@ class _ZikrCardState extends State<ZikrCard> {
               physics: const BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  Text(
-                    widget.zikrText,
-                    textAlign: TextAlign.center,
-                    style: TextStyle(
-                      fontFamily: 'Cairo',
-                      fontSize: 13.sp,
-                      fontWeight: FontWeight.bold,
-                      color: AppColors.secondaryGreen,
-                    ),
-                  ),
+                  // Text(
+                  //   widget.zikrText,
+                  //   textAlign: TextAlign.center,
+                  //   style: TextStyle(
+                  //     fontFamily: 'Cairo',
+                  //     fontSize: 13.sp,
+                  //     fontWeight: FontWeight.bold,
+                  //     color: AppColors.secondaryGreen,
+                  //   ),
+                  // ),
+                  QuranicText(text: widget.zikrText),
                   // this row is used to create a divider with an icon in the middle
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -122,6 +124,7 @@ class _ZikrCardState extends State<ZikrCard> {
                 if (currentCount < widget.azkarRepeat) {
                   currentCount++;
                 }
+
                 /// if the current count is equal to the total count, we call the onFinished callback
                 if (currentCount == widget.azkarRepeat) {
                   // Call the onFinished callback if it's not null

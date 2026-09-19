@@ -100,7 +100,11 @@ flutter:
       fonts:
         - asset: assets/fonts/DMSerifText/DMSerifText-Regular.ttf
         - asset: assets/fonts/DMSerifText/DMSerifText-Italic.ttf
-          style: italic      
+          style: italic
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri/AmiriQuran-Regular.ttf
+          
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package

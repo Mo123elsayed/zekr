@@ -1,8 +1,10 @@
 import 'dart:developer';
+import 'dart:math' hide log;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:zekr/core/constants/app_messages.dart';
 import 'package:zekr/core/themes/app_colors.dart';
 import 'package:zekr/core/themes/app_text.dart';
 import 'package:zekr/view/ui/widgets/next_zikr_button.dart';
@@ -44,14 +46,20 @@ class _DetailsScreenState extends State<DetailsScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final zekrTitle = ModalRoute.of(context)?.settings.arguments as String;
-    log(zekrTitle);
+    final routeArgs =
+        ModalRoute.of(context)?.settings.arguments as Map<String, String>;
+    final zekrId = routeArgs['id']!;
+    final zekrTitle = routeArgs['title'];
+    log(zekrTitle!);
     return BlocProvider(
-      create: (context) => AzkarCubit()..displayAzkar(zekrTitle),
+      create: (context) => AzkarCubit()..displayAzkar(zekrId),
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text(zekrTitle, style: AppText.serifText20BoldGreen),
+          title: Text(
+            zekrTitle,
+            style: AppText.serifText20Green.copyWith(fontFamily: 'Cairo'),
+          ),
           leading: IconButton(
             onPressed: () => Navigator.pop(context),
             icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),
@@ -91,7 +99,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   zikrTranslation: state.azkar.azkar[index].translation,
                   azkarRepeat: state.azkar.azkar[index].repeat,
                   onFinished: () {
-                    if(currentIndex == azkarLength-1){
+                    if (currentIndex == azkarLength - 1) {
                       _showCompletionDialog(context);
                     } else {
                       _pageController.nextPage(
@@ -150,44 +158,77 @@ class _DetailsScreenState extends State<DetailsScreen> {
   /// also, it prevents the user from dismissing the dialog by tapping outside of it, ensuring that they acknowledge the completion of their zikr practice.
   /// we put argument in parameter list to make it more flexible and reusable in different contexts where we might want to show a completion dialog.
   void _showCompletionDialog(BuildContext context) {
-  showDialog(
-    context: context,
-    barrierDismissible: false, // عشان ميقفلش لو داس بره الدايلوج
-    builder: (context) {
-      return AlertDialog(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-        content: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.check_circle_outline, color: AppColors.secondaryGreen, size: 60.sp),
-            SizedBox(height: 16.h),
-            Text(
-              'الحمد لله الذي بنعمته تتم الصالحات',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 18.sp, fontWeight: FontWeight.bold, color: AppColors.secondaryGreen),
-            ),
-            SizedBox(height: 8.h),
-            Text(
-              'تقبل الله منا ومنكم صالح الأعمال.',
-              textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 14.sp, color: Colors.black87),
-            ),
-            SizedBox(height: 24.h),
-            ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: AppColors.secondaryGreen,
-                minimumSize: Size(double.infinity, 45.h),
+    final random = Random();
+    final int randomIndex = random.nextInt(AppMessages.dialogMessages.length);
+    final randomMessage = AppMessages.dialogMessages[randomIndex];
+
+    showDialog(
+      context: context,
+      barrierDismissible: false, // عشان ميقفلش لو داس بره الدايلوج
+      builder: (context) {
+        return Dialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              SizedBox(height: 5.h),
+              Icon(
+                Icons.check_circle_outline,
+                color: AppColors.secondaryGreen,
+                size: 40.sp,
               ),
-              onPressed: () {
-                Navigator.pop(context); 
-                Navigator.pop(context); 
-              },
-              child: Text('العودة للرئيسية', style: TextStyle(color: Colors.white, fontSize: 14.sp)),
-            )
-          ],
-        ),
-      );
-    }
-  );
-}
+              SizedBox(height: 16.h),
+              Text(
+                "${randomMessage['title']}",
+                textAlign: TextAlign.center,
+                style: AppText.cairo18Bold.copyWith(
+                  color: AppColors.secondaryGreen,
+                ),
+              ),
+              SizedBox(height: 8.h),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                child: Text(
+                  "${randomMessage['body']}",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 14.sp,
+                    fontFamily: "Cairo",
+                    color: Colors.black87,
+                    height: 1.5,
+                  ),
+                ),
+              ),
+              SizedBox(height: 10.h),
+              Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  onTap: () {
+                    Navigator.pop(context);
+                    // context.pop();
+                  },
+                  child: Container(
+                    width: double.infinity, // بياخد العرض كله من اليمين للشمال
+                    alignment: Alignment.center,
+                    padding: EdgeInsets.symmetric(vertical: 10),
+                    decoration: BoxDecoration(
+                      border: Border(top: BorderSide(color: Colors.black26)),
+                    ),
+                    child: Text(
+                      "اللهم آمين",
+                      style: AppText.cairo18Bold.copyWith(
+                        color: AppColors.secondaryGreen,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
 }

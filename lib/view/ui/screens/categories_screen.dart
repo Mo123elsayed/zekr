@@ -73,7 +73,10 @@ class CategoriesScreen extends StatelessWidget {
                     onTap: () {
                       context.pushNamed(
                         Routes.details,
-                        arguments: state.categories[index].id,
+                        arguments: {
+                          'id': state.categories[index].id,
+                          'title' : state.categories[index].title,
+                        }
                       );
                     },
                   ),
