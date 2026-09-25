@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:zekr/core/themes/app_colors.dart';
 import 'package:zekr/view/ui/widgets/quranic_text.dart';
 import 'package:zekr/view/ui/widgets/zikr_progress_indicator.dart';
+import 'package:zekr/view_model/favorite_cubit/favorite_cubit.dart';
 
 class ZikrCard extends StatefulWidget {
   final String zikrText;
   final String zikrTransliteration;
   final String zikrTranslation;
+  final int zikrId;
+  final String categoryId;
   final VoidCallback? onFinished;
   final int azkarRepeat;
   const ZikrCard({
@@ -17,6 +21,8 @@ class ZikrCard extends StatefulWidget {
     required this.zikrTransliteration,
     required this.zikrTranslation,
     required this.azkarRepeat,
+    required this.zikrId,
+    required this.categoryId,
     this.onFinished,
   });
 
@@ -29,8 +35,8 @@ class _ZikrCardState extends State<ZikrCard> {
 
   @override
   Widget build(BuildContext context) {
+    final favoriteKey = '${widget.categoryId}_${widget.zikrId}';
     return Container(
-      height: 90.h,
       // padding: EdgeInsets.symmetric(horizontal: 10.w),
       margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.h),
       decoration: BoxDecoration(
@@ -48,12 +54,48 @@ class _ZikrCardState extends State<ZikrCard> {
         mainAxisSize: MainAxisSize.min,
         children: [
           SizedBox(height: 6.h),
-          CircleAvatar(
-            backgroundColor: Color(0xFFF1F9F6),
-            child: Icon(
-              Icons.book_outlined,
-              size: 20.sp,
-              color: Colors.green[700],
+          SizedBox(
+            width: double.infinity,
+            child: Stack(
+              children: [
+                Align(
+                  alignment: AlignmentGeometry.center,
+                  child: CircleAvatar(
+                    backgroundColor: Color(0xFFF1F9F6),
+                    child: Icon(
+                      Icons.book_outlined,
+                      size: 20.sp,
+                      color: Colors.green[700],
+                    ),
+                  ),
+                ),
+                Positioned(
+                  right: 0.w,
+                  top: 0,
+                  child: IconButton(
+                    onPressed: () {
+                      context.read<FavoriteCubit>().displayFavorite(
+                        favoriteKey,
+                      );
+                    },
+                    icon: BlocBuilder<FavoriteCubit, FavoriteState>(
+                      builder: (context, state) {
+                        final isFavorite =
+                            state is FavoriteSuccess &&
+                            state.favorites.contains(favoriteKey);
+                        return Icon(
+                          isFavorite
+                              ? Icons.bookmark_outlined
+                              : Icons.bookmark_border_rounded,
+                          color: isFavorite
+                              ? AppColors.secondaryGreen
+                              : Colors.black,
+                        );
+                      },
+                    ),
+                  ),
+                ),
+              ],
             ),
           ),
           SizedBox(height: 10.h),
@@ -63,16 +105,7 @@ class _ZikrCardState extends State<ZikrCard> {
               physics: const BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  // Text(
-                  //   widget.zikrText,
-                  //   textAlign: TextAlign.center,
-                  //   style: TextStyle(
-                  //     fontFamily: 'Cairo',
-                  //     fontSize: 13.sp,
-                  //     fontWeight: FontWeight.bold,
-                  //     color: AppColors.secondaryGreen,
-                  //   ),
-                  // ),
+                  /// this Wiget used to convert any Quran text like the Holy Quran in the Musahaf.
                   QuranicText(text: widget.zikrText),
                   // this row is used to create a divider with an icon in the middle
                   Row(

@@ -22,6 +22,7 @@ class DetailsScreen extends StatefulWidget {
 class _DetailsScreenState extends State<DetailsScreen> {
   int currentIndex = 0;
   late PageController _pageController;
+  bool isFavorite = false;
 
   /// Initialize the page controller with a viewport fraction of 1.0, which means that each page will take up the entire width of the screen. This allows for a smooth swiping experience between pages.
   @override
@@ -58,7 +59,10 @@ class _DetailsScreenState extends State<DetailsScreen> {
           centerTitle: true,
           title: Text(
             zekrTitle,
-            style: AppText.serifText20Green.copyWith(fontFamily: 'Cairo'),
+            style: AppText.serifText20Green.copyWith(
+              fontFamily: 'Cairo',
+              fontWeight: FontWeight.bold,
+            ),
           ),
           leading: IconButton(
             onPressed: () => Navigator.pop(context),
@@ -66,10 +70,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
           ),
           backgroundColor: Color.fromARGB(255, 254, 254, 254),
           actions: [
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.favorite_border, color: Colors.black),
-            ),
+            
           ],
         ),
         body: BlocConsumer<AzkarCubit, AzkarState>(
@@ -98,6 +99,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   zikrTransliteration: state.azkar.azkar[index].transliteration,
                   zikrTranslation: state.azkar.azkar[index].translation,
                   azkarRepeat: state.azkar.azkar[index].repeat,
+                  zikrId: state.azkar.azkar[index].id,
+                  categoryId: state.azkar.azkar[index].categoryId,
                   onFinished: () {
                     if (currentIndex == azkarLength - 1) {
                       _showCompletionDialog(context);
