@@ -18,6 +18,10 @@ final class FavoriteSuccess extends FavoriteState {
 }
 
 final class FavoriteFailure extends FavoriteState {
-  final String messageError;
-  const FavoriteFailure(this.messageError);
+  final String errorMessage;
+  const FavoriteFailure(this.errorMessage);
+}
+final class FavoriteEmpty extends FavoriteState {
+  final String message;
+  const FavoriteEmpty(this.message);
 }

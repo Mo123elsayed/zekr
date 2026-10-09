@@ -1,6 +1,7 @@
 import 'package:dart_either/dart_either.dart';
 import 'package:zekr/data/datasources/favorite_local_datasource.dart';
 import 'package:zekr/data/repositories/favorites_repo/favorites_abstract_repo.dart';
+import 'dart:convert';
 
 class FavoritesImplementationRepo implements FavoritesAbstractRepo {
   final FavoriteLocalDatasource _favoriteLocalDatasource =
@@ -22,19 +23,21 @@ class FavoritesImplementationRepo implements FavoritesAbstractRepo {
   /// if the favorite is already added, it will not be added again
   ///
   @override
-  Future<Either> addFavorite(String favoriteKey) async {
+  Future<Either> addFavorite(Map<String, dynamic> favoriteData) async {
     /// add the favorite to the local datasource
     /// If it already exists, it will not be added again.
-    await _favoriteLocalDatasource.addFavorite(favoriteKey);
     try {
+      /// convert the favorite data to a string so that we can store it in the shared preferences
+      final favoriteKey = jsonEncode(favoriteData);
       final isFavorite = await _favoriteLocalDatasource.isFavorite(favoriteKey);
+      await _favoriteLocalDatasource.addFavorite(favoriteKey);
       if (isFavorite) {
         /// if the favorite is already added, it will return a left value
         await _favoriteLocalDatasource.removeFavorites(favoriteKey);
         return Left('Favorite already exists');
       } else {
         /// add the favorite to the local datasource
-        /// 
+        ///
         await _favoriteLocalDatasource.addFavorite(favoriteKey);
         return Right(true);
       }
@@ -57,10 +60,12 @@ class FavoritesImplementationRepo implements FavoritesAbstractRepo {
   }
 
   @override
-  Future<Either> isFavorite(String favoriteKey) async {
+  Future<Either> isFavorite(Map<String, dynamic> favoriteData) async {
     try {
+      final favoriteKey = jsonEncode(favoriteData);
+
       /// check if the favorite is already added
-      return Right(_favoriteLocalDatasource.isFavorite(favoriteKey));
+      return Right(await _favoriteLocalDatasource.isFavorite(favoriteKey));
     } catch (e) {
       return Left(e.toString());
     }

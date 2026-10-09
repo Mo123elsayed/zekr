@@ -35,14 +35,14 @@ class FavoriteLocalDatasource {
     final favoriteZikr = pref.getStringList(_favoriteKey) ?? [];
     favoriteZikr.remove(favoriteKey);
 
-    await pref.setStringList(favoriteKey, favoriteZikr);
+    await pref.setStringList(_favoriteKey, favoriteZikr);
   }
 
   /// this method is used to check if the favorite is already added
   Future<bool> isFavorite(String favoriteKey) async {
     final prefs = await SharedPreferences.getInstance();
 
-    final favorites = prefs.getStringList(favoriteKey) ?? [];
+    final favorites = prefs.getStringList(_favoriteKey) ?? [];
 
     return favorites.contains(favoriteKey);
   }

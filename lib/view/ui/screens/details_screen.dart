@@ -11,6 +11,7 @@ import 'package:zekr/view/ui/widgets/next_zikr_button.dart';
 import 'package:zekr/view/ui/widgets/pervious_zikr_button.dart';
 import 'package:zekr/view/ui/widgets/zikr_card.dart';
 import 'package:zekr/view_model/azkar_cubit/azkar_cubit.dart';
+import 'package:zekr/view_model/favorite_cubit/favorite_cubit.dart';
 
 class DetailsScreen extends StatefulWidget {
   const DetailsScreen({super.key});
@@ -52,8 +53,13 @@ class _DetailsScreenState extends State<DetailsScreen> {
     final zekrId = routeArgs['id']!;
     final zekrTitle = routeArgs['title'];
     log(zekrTitle!);
-    return BlocProvider(
-      create: (context) => AzkarCubit()..displayAzkar(zekrId),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<FavoriteCubit>(create: (context) => FavoriteCubit()),
+        BlocProvider<AzkarCubit>(
+          create: (context) => AzkarCubit()..displayAzkar(zekrId),
+        ),
+      ],
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
@@ -69,9 +75,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
             icon: const Icon(Icons.arrow_back_ios_new, color: Colors.black),
           ),
           backgroundColor: Color.fromARGB(255, 254, 254, 254),
-          actions: [
-            
-          ],
+          actions: [],
         ),
         body: BlocConsumer<AzkarCubit, AzkarState>(
           listener: (context, state) {
@@ -167,7 +171,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
 
     showDialog(
       context: context,
-      barrierDismissible: false, // عشان ميقفلش لو داس بره الدايلوج
+      barrierDismissible:
+          false, // to prevent the dialog from being dismissed by tapping outside of it
       builder: (context) {
         return Dialog(
           shape: RoundedRectangleBorder(
@@ -213,7 +218,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                     // context.pop();
                   },
                   child: Container(
-                    width: double.infinity, // بياخد العرض كله من اليمين للشمال
+                    width: double.infinity,
                     alignment: Alignment.center,
                     padding: EdgeInsets.symmetric(vertical: 10),
                     decoration: BoxDecoration(

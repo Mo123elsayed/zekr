@@ -35,7 +35,6 @@ class _ZikrCardState extends State<ZikrCard> {
 
   @override
   Widget build(BuildContext context) {
-    final favoriteKey = '${widget.categoryId}_${widget.zikrId}';
     return Container(
       // padding: EdgeInsets.symmetric(horizontal: 10.w),
       margin: EdgeInsets.symmetric(horizontal: 10.w, vertical: 10.h),
@@ -74,15 +73,22 @@ class _ZikrCardState extends State<ZikrCard> {
                   top: 0,
                   child: IconButton(
                     onPressed: () {
-                      context.read<FavoriteCubit>().displayFavorite(
-                        favoriteKey,
-                      );
+                      final zekrData = {
+                        'zikr': widget.zikrText,
+                        'translation': widget.zikrTranslation,
+                      };
+                      context.read<FavoriteCubit>().displayFavorite(zekrData);
                     },
                     icon: BlocBuilder<FavoriteCubit, FavoriteState>(
                       builder: (context, state) {
                         final isFavorite =
                             state is FavoriteSuccess &&
-                            state.favorites.contains(favoriteKey);
+                            state.favorites.contains(
+                              {
+                                'zikr': widget.zikrText,
+                                'translation': widget.zikrTranslation,
+                              }.toString(),
+                            );
                         return Icon(
                           isFavorite
                               ? Icons.bookmark_outlined
@@ -105,7 +111,7 @@ class _ZikrCardState extends State<ZikrCard> {
               physics: const BouncingScrollPhysics(),
               child: Column(
                 children: [
-                  /// this Wiget used to convert any Quran text like the Holy Quran in the Musahaf.
+                  /// this Widget used to convert any Quran text like the Holy Quran in the Musahaf.
                   QuranicText(text: widget.zikrText),
                   // this row is used to create a divider with an icon in the middle
                   Row(
